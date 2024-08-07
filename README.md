@@ -14,6 +14,11 @@ This repo hosts
 
 ## Getting Started
 
+1. 创建 Google Cloud 服务账号，添加到 env https://console.cloud.google.com/apis/credentials?hl=zh-cn&project=recommend-377613
+
+2. 修改 .firebaserc project
+
+3. 
 First, run the development server:
 
 ```bash

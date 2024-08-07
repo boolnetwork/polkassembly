@@ -57,10 +57,12 @@ import ZeitgeistLogo from '~assets/parachain-logos/zeitgeist-logo.png';
 import polimecLogo from '~assets/parachain-logos/polimec-logo.png';
 import phykenLogo from '~assets/parachain-logos/phyken-logo.png';
 import mandalaLogo from '~assets/parachain-logos/mandala-logo.png';
+import boolLogo from '~assets/parachain-logos/bool-logo.png';
 
 import * as types from '../types';
 
 export const network = {
+	BOOL_BETA_TESTNET: 'bool_beta_testnet',
 	POLKADOT: 'polkadot',
 	KUSAMA: 'kusama',
 	ACALA: 'acala',
@@ -125,6 +127,7 @@ export const network = {
 };
 
 export const tokenSymbol = {
+	BOOL_TESTNET: 'tBOL',
 	ACA: 'ACA',
 	ACU: 'ACU',
 	ASTR: 'ASTR',
@@ -183,6 +186,30 @@ export const tokenSymbol = {
 };
 
 export const chainProperties: types.ChainPropType = {
+	[network.BOOL_BETA_TESTNET]: {
+		preImageBaseDeposit: '400000000000',
+		blockTime: 3000,
+		category: 'test',
+		chainId: 481,
+		logo: boolLogo,
+		rpcEndpoint: 'ws://127.0.0.1:9944',
+		ss58Format: 0,
+		subsquidUrl: 'http://127.0.0.1:4350/graphql',
+		tokenDecimals: 18,
+		tokenSymbol: tokenSymbol.BOOL_TESTNET,
+		treasuryProposalBondPercent: null,
+		treasuryProposalMinBond: null,
+
+		treasuryProposalMaxBond: null,
+		externalLinks: 'https://beta-testnet.boolscan.com',
+		gTag: null,
+		rpcEndpoints: [
+			{
+				label: 'via Bool(recommended)',
+				key: 'ws://127.0.0.1:9944'
+			}
+		]
+	},
 	[network.POLKADOT]: {
 		preImageBaseDeposit: '400000000000',
 		blockTime: 6000,

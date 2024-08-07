@@ -280,12 +280,8 @@ const Home: FC<IHomeProps> = ({ latestPosts, network, networkSocialsData }) => {
 				</div>
 
 				<div className='mx-1 mt-8 flex flex-col items-center justify-between gap-4 xl:flex-row'>
-					<div className='w-full xl:w-[60%]'>
+					<div className='w-full'>
 						<UpcomingEvents />
-					</div>
-
-					<div className='w-full xl:w-[40%]'>
-						<News twitter={networkSocialsData?.data?.twitter || ''} />
 					</div>
 				</div>
 			</main>

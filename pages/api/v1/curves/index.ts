@@ -27,7 +27,7 @@ async function handler(req: NextApiRequest, res: NextApiResponse<{ curveData: an
 			network: network,
 			query: GET_CURVE_DATA_BY_INDEX,
 			variables: {
-				block_gte: blockGte,
+				// block_gte: blockGte,
 				index_eq: Number(postId)
 			}
 		});

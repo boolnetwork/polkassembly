@@ -46,12 +46,12 @@ import verifyUserPassword from './utils/verifyUserPassword';
 import getSubstrateAddress from '~src/util/getSubstrateAddress';
 import { REFRESH_TOKEN_LIFE_IN_SECONDS } from '~src/global/refreshToken';
 
-process.env.JWT_PRIVATE_KEY = process.env.JWT_PRIVATE_KEY && process.env.JWT_PRIVATE_KEY.replace(/\\n/gm, '\n');
-process.env.JWT_PUBLIC_KEY = process.env.JWT_PUBLIC_KEY && process.env.JWT_PUBLIC_KEY.replace(/\\n/gm, '\n');
+// process.env.JWT_PRIVATE_KEY = process.env.JWT_PRIVATE_KEY && process.env.JWT_PRIVATE_KEY.replace(/\\n/gm, '\n');
+// process.env.JWT_PUBLIC_KEY = process.env.JWT_PUBLIC_KEY && process.env.JWT_PUBLIC_KEY.replace(/\\n/gm, '\n');
 
-const privateKey = process.env.NODE_ENV === 'test' ? process.env.JWT_PRIVATE_KEY_TEST : process.env.JWT_PRIVATE_KEY?.replace(/\\n/gm, '\n');
-const jwtPublicKey = process.env.NODE_ENV === 'test' ? process.env.JWT_PUBLIC_KEY_TEST : process.env.JWT_PUBLIC_KEY?.replace(/\\n/gm, '\n');
-const passphrase = process.env.NODE_ENV === 'test' ? process.env.JWT_KEY_PASSPHRASE_TEST : process.env.JWT_KEY_PASSPHRASE;
+const privateKey = process.env.JWT_PRIVATE_KEY?.replace(/\\n/gm, '\n');
+const jwtPublicKey = process.env.JWT_PUBLIC_KEY?.replace(/\\n/gm, '\n');
+const passphrase = process.env.JWT_KEY_PASSPHRASE;
 
 const refreshTokenPrivateKey = process.env.REFRESH_TOKEN_PRIVATE_KEY?.replace(/\\n/gm, '\n');
 const refreshTokenPassphrase = process.env.REFRESH_TOKEN_PASSPHRASE;

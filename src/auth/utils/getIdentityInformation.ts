@@ -54,7 +54,7 @@ const getIdentityInformation = async ({ api, apiReady, address, network }: Args)
 	if (!api || !apiReady || !address) return result;
 	const encodedAddress = getEncodedAddress(address, network) || address;
 
-	const identityInfo: any = await api?.query.identity.identityOf(encodedAddress).then((res: any) => res?.toHuman()?.[0]);
+	const identityInfo: any = await api?.query.identity?.identityOf(encodedAddress).then((res: any) => res?.toHuman()?.[0]);
 
 	const infoCall = identityInfo?.judgements
 		? identityInfo?.judgements.filter(([, judgement]: any[]): boolean => {

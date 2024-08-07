@@ -321,7 +321,7 @@ const AppLayout = ({ className, Component, pageProps }: Props) => {
 	const getTotalActiveProposalsCount = async () => {
 		if (!network) return;
 
-		const { data, error } = await nextApiClientFetch<IActiveProposalCount>('/api/v1/posts/active-proposals-count');
+		const { data, error } = await nextApiClientFetch<IActiveProposalCount>('api/v1/posts/active-proposals-count');
 		if (data) {
 			setTotalActiveProposalsCount(data);
 		} else if (error) {
