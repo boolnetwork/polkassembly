@@ -80,7 +80,7 @@ module.exports = {
 						high: '#243A57'
 					},
 					dark: {
-						helper: '#FF60B5',
+						helper: '#ef5a19',
 						medium: '#909090',
 						high: '#FFFFFF'
 					}

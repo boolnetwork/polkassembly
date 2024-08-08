@@ -119,7 +119,7 @@ export default styled(TopicsRadio)`
 	}
 	.borderRadius .ant-segmented-item-selected {
 		border-radius: 16px;
-		background: #e5007a;
+		background: #ef5a19;
 	}
 	.borderRadius .ant-segmented-item-selected .ant-segmented-item-label {
 		border-radius: 16px;

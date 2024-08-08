@@ -302,8 +302,8 @@ export default styled(BalanceInput)`
 		color: ${(props: any) => (props.theme === 'dark' ? '#909090' : '#243A57')} !important;
 	}
 	.ant-input-group-addon {
-		background-color: ${(props: any) => (props.theme === 'dark' ? '#e5007a' : '#edeff3')} !important;
-		border: ${(props: any) => (props.theme === 'dark' ? '1px solid #e5007a' : '1px solid #edeff3')} !important;
+		background-color: ${(props: any) => (props.theme === 'dark' ? '#ef5a19' : '#edeff3')} !important;
+		border: ${(props: any) => (props.theme === 'dark' ? '1px solid #ef5a19' : '1px solid #edeff3')} !important;
 	}
 	.ant-select-selection-item {
 		display: flex !important;

@@ -31,17 +31,17 @@ const StyledTabs = styled(AntdTabs)`
 		background-color: ${(props: any) => (props.theme == 'dark' ? '#0D0D0D' : 'transparent')} !important;
 		border: ${(props: any) => (props.theme == 'dark' ? '1px solid #4B4B4B' : '')} !important;
 		border-bottom: ${(props: any) => (props.theme == 'dark' ? 'none' : 'none')} !important;
-		color: ${(props: any) => (props.theme == 'dark' ? '#FF60B5' : '#e5007a')} !important;
+		color: ${(props: any) => (props.theme == 'dark' ? '#ef5a19' : '#ef5a19')} !important;
 	}
 	.ant-tabs .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
-		color: ${(props: any) => (props.theme == 'dark' ? '#FF60B5' : '#e5007a')} !important;
+		color: ${(props: any) => (props.theme == 'dark' ? '#ef5a19' : '#ef5a19')} !important;
 	}
 	.ant-tabs-card > .ant-tabs-nav .ant-tabs-tab-active,
 	.ant-tabs-card > div > .ant-tabs-nav .ant-tabs-tab-active {
-		color: ${(props: any) => (props.theme == 'dark' ? '#FF60B5' : '#e5007a')} !important;
+		color: ${(props: any) => (props.theme == 'dark' ? '#ef5a19' : '#ef5a19')} !important;
 	}
 	&.ant-tabs-tab.ant-tabs-tab-active {
-		border-bottom: ${(props: any) => (props.theme == 'dark' ? '1px #4B4B4B solid' : '1px solid #e5007a')} !important;
+		border-bottom: ${(props: any) => (props.theme == 'dark' ? '1px #4B4B4B solid' : '1px solid #ef5a19')} !important;
 	}
 	.ant-tabs-ink-bar {
 		visibility: visible !important;
@@ -51,7 +51,7 @@ const StyledTabs = styled(AntdTabs)`
 		border-bottom: 1px solid #e1e6eb;
 	}
 	.ant-tabs-nav-operations > button {
-		color: ${(props: any) => (props.theme == 'dark' ? '#fff' : '#e5007a')} !important;
+		color: ${(props: any) => (props.theme == 'dark' ? '#fff' : '#ef5a19')} !important;
 	}
 `;
 

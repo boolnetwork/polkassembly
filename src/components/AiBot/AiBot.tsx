@@ -107,7 +107,7 @@ const AiBot: FC<IAiChatbotProps> = (props) => {
 		{
 			component: (
 				<div
-					className='ml-[-37px] flex min-w-[290px] cursor-pointer justify-center rounded-[8px] align-middle text-xl text-lightBlue transition delay-150 duration-300 hover:bg-[#e5007a12] hover:text-bodyBlue dark:text-blue-dark-medium'
+					className='ml-[-37px] flex min-w-[290px] cursor-pointer justify-center rounded-[8px] align-middle text-xl text-lightBlue transition delay-150 duration-300 hover:bg-[#ef5a1912] hover:text-bodyBlue dark:text-blue-dark-medium'
 					onClick={() => (id ? router.push('/post/create') : setOpenDiscussionLoginPrompt(true))}
 				>
 					<div className='ml-[-50px] mt-[5px] cursor-pointer'>{theme == 'dark' ? <CreateDiscussionIconDark /> : <CreateDiscussionIcon />}</div>
@@ -116,7 +116,7 @@ const AiBot: FC<IAiChatbotProps> = (props) => {
 			)
 		},
 		// {
-		// component: <div className='ml-[-37px] flex justify-center align-middle text-lightBlue dark:text-blue-dark-medium hover:text-bodyBlue dark:text-blue-dark-high hover:bg-[#e5007a12] transition duration-300 delay-150 min-w-[290px] rounded-[8px] cursor-pointer'
+		// component: <div className='ml-[-37px] flex justify-center align-middle text-lightBlue dark:text-blue-dark-medium hover:text-bodyBlue dark:text-blue-dark-high hover:bg-[#ef5a1912] transition duration-300 delay-150 min-w-[290px] rounded-[8px] cursor-pointer'
 		// onClick={() => {
 		// if (!grillChat)
 		// (window as any).DocsBotAI.toggle();
@@ -135,7 +135,7 @@ const AiBot: FC<IAiChatbotProps> = (props) => {
 					rel='noreferrer'
 					className='ml-[-34px] text-lightBlue hover:text-bodyBlue dark:text-blue-dark-medium'
 				>
-					<div className='flex min-w-[290px] cursor-pointer justify-center rounded-[8px] align-middle transition delay-150  duration-300 hover:bg-[#e5007a12]'>
+					<div className='flex min-w-[290px] cursor-pointer justify-center rounded-[8px] align-middle transition delay-150  duration-300 hover:bg-[#ef5a1912]'>
 						<CautionIcon className='ml-[-108px] mt-[5px] cursor-pointer' />
 						<p className='mb-3 ml-[18px] mt-2.5 text-sm font-medium leading-5 tracking-[1.25%]'>Report An Issue</p>
 					</div>
@@ -246,10 +246,10 @@ export default styled(AiBot)`
 	.ant-float-btn-body {
 		width: 56px !important;
 		height: 56px !important;
-		background: radial-gradient(circle, #e5007a, #ba0566, #9a0856);
+		background: #ef5a19;
 		box-shadow:
-			0 0 10px 0 rgba(229, 0, 122, 0.3),
-			0 0 20px 5px rgba(229, 0, 122, 0.2);
+			0 0 10px 0 rgba(239, 90, 25, 0.3),
+			0 0 20px 5px rgba(239, 90, 25, 0.2);
 	}
 	.ant-float-btn-primary {
 		background: rgba(76, 175, 80, 0.001);

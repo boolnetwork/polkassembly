@@ -667,7 +667,7 @@ const EditableReplyContent = ({ isSubsquareUser, isReactionOnReply, userId, clas
 									reply.reply_source === 'subsquare' ? (
 										<Tooltip
 											title='Reply are disabled for imported comments.'
-											color='#E5007A'
+											color='#ef5a19'
 										>
 											<Button
 												disabled={!isCommentAllowed}

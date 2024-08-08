@@ -386,11 +386,11 @@ export default styled(LeaderboardData)`
 		border-color: ${(props: any) => (props.theme === 'dark' ? '#4B4B4B' : '#D2D8E0')};
 	}
 	.ant-pagination .ant-pagination-item-active {
-		color: #e5007a !important;
-		border-color: #e5007a;
+		color: #ef5a19 !important;
+		border-color: #ef5a19;
 	}
 	.ant-pagination .ant-pagination-item-active a {
-		color: #e5007a !important;
+		color: #ef5a19 !important;
 	}
 	.delegation-modal .ant-modal-root .ant-modal-mask {
 		z-index: 1 !important;

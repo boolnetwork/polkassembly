@@ -61,7 +61,7 @@ import { poppins } from 'pages/_app';
 
 import IdentityCaution from '~assets/icons/identity-caution.svg';
 import { CloseIcon } from '~src/ui-components/CustomIcons';
-import PaLogo from './PaLogo';
+import BoolLogo from '~assets/bool-logo.svg';
 import { useNetworkSelector, useUserDetailsSelector } from '~src/redux/selectors';
 import { useDispatch } from 'react-redux';
 import { logout, userDetailsActions } from '~src/redux/userDetails';
@@ -406,11 +406,11 @@ const AppLayout = ({ className, Component, pageProps }: Props) => {
 								<div className={`${sidedrawer ? 'ml-2' : 'ml-0'} h-full`}>
 									{sidedrawer ? (
 										<img
-											src={theme === 'dark' ? '/assets/PALogoDark.svg' : '/assets/pa-logo-black.svg'}
-											alt='polkassembly logo'
+											src={theme === 'dark' ? '/assets/bool-logo-white.svg' : '/assets/bool-logo-black.svg'}
+											alt='Bool logo'
 										/>
 									) : (
-										<PaLogo sidedrawer={sidedrawer} />
+										<BoolLogo sidedrawer={sidedrawer} />
 									)}
 								</div>
 								<div className={`${sidedrawer ? 'ml-[38px] w-[255px]' : ''} border-bottom border-b-1 -mx-4 my-2 dark:border-separatorDark`}></div>
@@ -845,11 +845,11 @@ const AppLayout = ({ className, Component, pageProps }: Props) => {
 							<div className={`${sidedrawer ? 'ml-2' : 'ml-0'} h-full`}>
 								{sidedrawer ? (
 									<img
-										src={theme === 'dark' ? '/assets/PALogoDark.svg' : '/assets/pa-logo-black.svg'}
+										src={theme === 'dark' ? '/assets/bool-logo-white.svg' : '/assets/bool-logo-black.svg'}
 										alt='polkassembly logo'
 									/>
 								) : (
-									<PaLogo sidedrawer={sidedrawer} />
+									<BoolLogo sidedrawer={sidedrawer} />
 								)}
 							</div>
 							<div className={`${sidedrawer ? 'ml-[38px] w-[255px]' : ''} border-bottom border-b-1 -mx-4 my-2 dark:border-separatorDark`}></div>

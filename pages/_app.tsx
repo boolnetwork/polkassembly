@@ -5,7 +5,6 @@
 import { Poppins, Roboto_Mono, Work_Sans, Space_Grotesk } from 'next/font/google';
 import { ConfigProvider } from 'antd';
 import type { AppProps } from 'next/app';
-import Image from 'next/image';
 import { useRouter } from 'next/router';
 import NextNProgress from 'nextjs-progressbar';
 import { useEffect, useState } from 'react';
@@ -96,17 +95,17 @@ function App({ Component, pageProps }: AppProps) {
 	const SplashLoader = () => {
 		return (
 			<div
-				style={{ background: '#000000', minHeight: '100vh', minWidth: '100vw' }}
+				style={{ background: '#fff', minHeight: '100vh', minWidth: '100vw' }}
 				className='transition-all'
 			>
-				<Image
+				{/* <Image
 					style={{ left: 'calc(50vw - 50px)', position: 'absolute', top: 'calc(50vh - 40px)' }}
-					width={120}
+					width={300}
 					className='bg-transparent'
-					height={45}
-					src='/assets/PALogoDark.svg'
+					height={100}
+					src='/assets/bool-logo-white.svg'
 					alt={'Loading'}
-				/>
+				/> */}
 			</div>
 		);
 	};
@@ -133,7 +132,7 @@ function App({ Component, pageProps }: AppProps) {
 										<>
 											{showSplashScreen && <SplashLoader />}
 											<main className={`${poppins.variable} ${poppins.className} ${robotoMono.className} ${workSans.className} ${showSplashScreen ? 'hidden' : ''}`}>
-												<NextNProgress color='#E5007A' />
+												<NextNProgress color='#ef5a19' />
 												{/* <CMDK /> */}
 												<AppLayout
 													Component={Component}

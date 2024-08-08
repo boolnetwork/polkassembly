@@ -32,10 +32,10 @@
   --grey_secondary: #a6acb3;
   --icon_grey: #c2cfe0;
   --nav_black: #1e1e28;
-  --pink_primary: #e5007a;
-  --pink_primary_transparent: rgba(229, 0, 122, 0.5);
-  --pink_secondary: #c40061;
-  --pink_light: #ea729d;
+  --pink_primary: #ef5a19;
+  --pink_primary_transparent: #ef5a1980;
+  --pink_secondary: #c83f04;
+  --pink_light: #ce6132;
   --baby_pink: #fbdbec;
   --red_light: #fff1f0;
   --red_primary: #ff5a47;
@@ -352,8 +352,8 @@ a.command-palette-list-item svg {
   color: #243a57;
 }
 .undelegate .ant-modal-content {
-  background: linear-gradient(0deg, #e5007a, #e5007a), #ffffff !important;
-  box-shadow: 0px 8px 18px rgba(229, 0, 122, 0.4);
+  background: linear-gradient(0deg, #ef5a19, #ef5a19), #ffffff !important;
+  box-shadow: 0px 8px 18px rgba(228, 109, 11, 0.4);
   border-radius: 14px !important;
   color: white;
   height: 216px !important;
@@ -366,7 +366,7 @@ a.command-palette-list-item svg {
 }
 
 .opengov_banner {
-  background: radial-gradient(99.69% 25520% at 1.22% 0%, #42122C 0%, #A6075C 32.81%, #952863 77.08%, #E5007A 100%) !important;
+  background: radial-gradient(99.69% 25520% at 1.22% 0%, #42122C 0%, #A6075C 32.81%, #952863 77.08%, #ef5a19 100%) !important;
   box-shadow: 0px 5px 8px rgba(35, 18, 24, 0.04) !important;
 }
 
@@ -474,7 +474,7 @@ color: var(--lightBlue) !important;
   margin: 0 0 12px;
 }
 .vector p strong {
-  color: #e5007a;
+  color: #ef5a19;
   font-weight: 500;
 }
 
@@ -513,7 +513,7 @@ color: var(--lightBlue) !important;
   font-weight: 500;
   letter-spacing: 0.175px;
   border-radius: 4px;
-  background: #e5007a;
+  background: #ef5a19;
   border: 0;
   color: #fff;
   padding: 12px 1rem;
@@ -747,7 +747,7 @@ z-index: 105 !important;
 
 .dark .dark-text-white a,
 .dark .dark-text-white a > span {
-  color: #FF60B5 !important;
+  color: #ef5a19 !important;
 }
 
 .dark .dark-text-white > p, 
@@ -758,7 +758,7 @@ z-index: 105 !important;
 
 .dark .dark-text-white > p a *,
 .dark .dark-text-white > p a *:not(a) {
-  color: #FF60B5 !important;
+  color: #ef5a19 !important;
 }
 
 .dark .dark-text-white span[style*="background-color: rgb(255, 255, 255)"],
@@ -814,7 +814,7 @@ z-index: 105 !important;
 
 .clear-filter-option {
   font-size: 12px !important;
-  color: #e5007a;
+  color: #ef5a19;
   text-align: left;
 }
 
@@ -884,5 +884,5 @@ z-index: 105 !important;
 }
 
 .bounty-button {
-  background: linear-gradient(180deg, #FF50AD 0%, #E5007A 100%, #E5007A 100%);
+  background: linear-gradient(180deg, #a4562f 0%, #ef5a19 100%, #ef5a19 100%);
 }

@@ -105,7 +105,7 @@ const Curves: FC<ICurvesProps> = (props) => {
 			</article>
 			<article className='mx-10 mt-5 flex items-center justify-start gap-x-5'>
 				<div className='flex flex-col items-center'>
-					<div className='h-0.5 w-10 rounded-full bg-[#E5007A]'></div>
+					<div className='h-0.5 w-10 rounded-full bg-[#ef5a19]'></div>
 					<p className='my-0.5 text-xs text-bodyBlue dark:text-blue-dark-high'>Support</p>
 				</div>
 				<div className='flex flex-col items-center'>

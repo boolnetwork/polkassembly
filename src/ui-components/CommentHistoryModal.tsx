@@ -222,7 +222,7 @@ export default styled(CommentHistoryModal)`
 
 	.post-history-timeline .ant-timeline .ant-timeline-item:has(.active-timeline) {
 		.ant-timeline-item-tail {
-			background-image: linear-gradient(rgba(229, 0, 122) 33%, rgba(255, 255, 255) 0%) !important;
+			background-image: linear-gradient(rgba(239, 90, 25) 33%, rgba(255, 255, 255) 0%) !important;
 			background-position: right !important;
 			background-size: 1.5px 7px !important;
 			background-repeat: repeat-y !important ;

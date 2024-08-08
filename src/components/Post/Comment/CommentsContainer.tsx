@@ -332,7 +332,7 @@ const CommentsContainer: FC<ICommentsContainerProps> = (props) => {
 							{sentimentsData.map((data) => (
 								<Tooltip
 									key={data.sentiment}
-									color='#E5007A'
+									color='#ef5a19'
 									title={
 										<div className='flex flex-col px-1 text-xs'>
 											<span className='text-center font-medium'>{data.title}</span>
@@ -454,7 +454,7 @@ export default React.memo(styled(CommentsContainer)`
 
 		.ant-anchor-ink-ball-visible {
 			display: block !important;
-			background: url('/assets/pa-small-circle.png') !important;
+			background: url('/assets/bool-small-circle.png') !important;
 			background-repeat: no-repeat !important;
 			background-position: center !important;
 			height: 18px !important;

@@ -316,9 +316,9 @@ export default styled(CreateEventSidebar)`
 				margin-right: 20px !important;
 				&.checked {
 					label {
-						color: #e5007a;
+						color: #ef5a19;
 						&::after {
-							background-color: #e5007a !important;
+							background-color: #ef5a19 !important;
 						}
 					}
 				}
@@ -351,7 +351,7 @@ export default styled(CreateEventSidebar)`
 				margin-bottom: 212px !important;
 			}
 			.react-calendar__tile--now {
-				background-color: rgba(229, 0, 122, 0.1);
+				background-color: rgba(239, 90, 25, 0.1);
 			}
 		}
 		.date-input {
@@ -424,7 +424,7 @@ export default styled(CreateEventSidebar)`
 				}
 			}
 			.submit-btn {
-				background: #e5007a;
+				background: #ef5a19;
 				color: #fff;
 			}
 		}

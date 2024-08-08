@@ -1201,7 +1201,7 @@ export default React.memo(styled(VoteReferendum)`
 		color: #243a57;
 	}
 	.vote-referendum .ant-select-focused {
-		border: 1px solid #e5007a !important;
+		border: 1px solid #ef5a19 !important;
 		border-radius: 4px !important;
 	}
 	.vote-referendum.ant-segmented-item-selected {
@@ -1218,7 +1218,7 @@ export default React.memo(styled(VoteReferendum)`
 		background-color: transparent !important;
 	}
 	.ant-checkbox-checked .ant-checkbox-inner {
-		background-color: #e5007a !important;
-		border-color: #e5007a !important;
+		background-color: #ef5a19 !important;
+		border-color: #ef5a19 !important;
 	}
 `);

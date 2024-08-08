@@ -324,7 +324,7 @@ const DashboardTrackListing = ({ className, posts, trackDetails, totalCount }: P
 export default styled(DashboardTrackListing)`
 	.wallet-info-board {
 		margin-top: 0px;
-		background: radial-gradient(99.69% 25520% at 1.22% 0%, #42122c 0%, #a6075c 32.81%, #952863 77.08%, #e5007a 100%);
+		background: radial-gradient(99.69% 25520% at 1.22% 0%, #42122c 0%, #a6075c 32.81%, #952863 77.08%, #ef5a19 100%);
 	}
 	.column .ant-table-thead > tr > th {
 		color: var(--lightBlue) !important;

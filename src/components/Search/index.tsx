@@ -1031,6 +1031,6 @@ export default styled(NewSearch)`
 	}
 
 	.ant-radio-wrapper .ant-radio-checked .ant-radio-inner {
-		background-color: #e5007a !important;
+		background-color: #ef5a19 !important;
 	}
 `;

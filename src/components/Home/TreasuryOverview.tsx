@@ -620,7 +620,7 @@ const TreasuryOverview: FC<ITreasuryOverviewProps> = (props) => {
 														className='m-0 flex items-center p-0'
 														percent={!isNaN(Number(spendPeriod.percentage)) ? spendPeriod.percentage : 0}
 														trailColor={trailColor}
-														strokeColor='#E5007A'
+														strokeColor='#ef5a19'
 														size='small'
 													/>
 												</span>

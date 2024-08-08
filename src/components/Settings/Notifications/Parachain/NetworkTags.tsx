@@ -19,7 +19,7 @@ const PlusIcon = styled(PlusCircleOutlined)`
 	svg {
 		width: 25px;
 		height: 25px;
-		color: #e5007a;
+		color: #ef5a19;
 	}
 `;
 
@@ -27,7 +27,7 @@ export default function NetworkTags({ icon, name, selected = true, onActionClick
 	return (
 		<Tag
 			onClick={onActionClick}
-			className={`flex items-center justify-between rounded-[34px] border border-solid border-[#E5007A] px-[24px] ${
+			className={`flex items-center justify-between rounded-[34px] border border-solid border-[#ef5a19] px-[24px] ${
 				selected ? 'bg-[#FEF2F8] py-[8px] dark:bg-[#33071E]' : 'bg-white py-[14px] dark:border-separatorDark dark:bg-section-dark-overlay'
 			} cursor-pointer`}
 		>

@@ -144,9 +144,9 @@ const DelegationDashboardHome = ({ className }: Props) => {
 export default styled(DelegationDashboardHome)`
 	.wallet-info-board {
 		margin-top: 0px;
-		background: radial-gradient(99.69% 25520% at 1.22% 0%, #42122c 0%, #a6075c 32.81%, #952863 77.08%, #e5007a 100%);
+		background: radial-gradient(99.69% 25520% at 1.22% 0%, #42122c 0%, #a6075c 32.81%, #952863 77.08%, #ef5a19 100%);
 	}
 	.delegate-button {
-		background: linear-gradient(0deg, #e5007a, #e5007a), linear-gradient(0deg, rgba(229, 0, 122, 0.6), rgba(229, 0, 122, 0.6));
+		background: linear-gradient(0deg, #ef5a19, #ef5a19), linear-gradient(0deg, rgba(239, 90, 25, 0.6), rgba(239, 90, 25, 0.6));
 	}
 `;

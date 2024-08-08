@@ -36,7 +36,7 @@ const Styled = styled.div`
 		height: 14.6px;
 	}
 	&:hover {
-		color: #e5007a;
+		color: #ef5a19;
 	}
 	.ant-tooltip {
 		font-size: 16px;
@@ -58,7 +58,7 @@ const Styled = styled.div`
 	}
 
 	.dark-pink {
-		color: #e5007a;
+		color: #ef5a19;
 		text-decoration: underline;
 	}
 `;
@@ -301,7 +301,7 @@ const CreationLabel: FC<ICreationLabelProps> = (props) => {
 				{spam_users_count && typeof spam_users_count === 'number' && spam_users_count > 0 ? (
 					<div className='mr-2 flex items-center'>
 						<Tooltip
-							color='#E5007A'
+							color='#ef5a19'
 							title={`This comment has been reported as spam by ${spam_users_count} members`}
 						>
 							<WarningMessageIcon className='scale-75 text-xl text-[#FFA012]' />

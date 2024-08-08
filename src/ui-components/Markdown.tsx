@@ -103,11 +103,11 @@ const StyledMarkdown = styled(ReactMarkdown)`
 		}
 
 		a {
-			color: ${(props: any) => (props.theme == 'dark' ? '#FF60B5' : '#e5007a')} !important;
+			color: ${(props: any) => (props.theme == 'dark' ? '#ef5a19' : '#ef5a19')} !important;
 
 			&:hover {
 				text-decoration: none;
-				color: ${(props: any) => (props.theme == 'dark' ? '#FF60B5' : '#c40061')} !important;
+				color: ${(props: any) => (props.theme == 'dark' ? '#ef5a19' : '#c40061')} !important;
 			}
 		}
 		&.hide-blockquote blockquote {

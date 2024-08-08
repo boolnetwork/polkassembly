@@ -5,30 +5,30 @@
 import BN from 'bn.js';
 
 interface Options {
-  numberAfterComma?: number;
-  withThousandDelimitor?: boolean;
+	numberAfterComma?: number;
+	withThousandDelimitor?: boolean;
 }
 
 const getTokenDecimal = (network: string) => {
 	switch (network) {
-	case 'kusama':
-		return 12;
-	case 'polkadot':
-		return 10;
-	case 'vara':
-		return 12;
-	case 'rococo':
-		return 12;
-	case 'moonbeam':
-		return 18;
-	case 'moonriver':
-		return 18;
-	case 'moonbase':
-		return 18;
-	case 'picasso':
-		return 12;
-	default:
-		return 0;
+		case 'kusama':
+			return 12;
+		case 'polkadot':
+			return 10;
+		case 'vara':
+			return 12;
+		case 'rococo':
+			return 12;
+		case 'moonbeam':
+			return 18;
+		case 'moonriver':
+			return 18;
+		case 'moonbase':
+			return 18;
+		case 'picasso':
+			return 12;
+		default:
+			return 0;
 	}
 };
 

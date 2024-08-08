@@ -21,7 +21,7 @@ const StyledButton = styled.div`
 	cursor: pointer;
 	transition: 0.3s;
 	&:hover {
-		border: 1.5px solid #e5007a;
+		border: 1.5px solid #ef5a19;
 	}
 	margin-bottom: 16px;
 `;

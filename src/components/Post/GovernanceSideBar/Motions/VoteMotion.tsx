@@ -257,7 +257,7 @@ const VoteMotion = ({ accounts, address, className, getAccounts, motionId, motio
 						<Tooltip
 							placement='bottom'
 							title='Decision'
-							color={'#E5007A'}
+							color={'#ef5a19'}
 							className='w-[20%] max-[345px]:w-auto'
 						>
 							<span className='h-[25px]'>
@@ -275,7 +275,7 @@ const VoteMotion = ({ accounts, address, className, getAccounts, motionId, motio
 						<Tooltip
 							placement='bottom'
 							title='Time'
-							color={'#E5007A'}
+							color={'#ef5a19'}
 							className='w-[30%] max-[345px]:w-auto'
 						>
 							<span className=''>

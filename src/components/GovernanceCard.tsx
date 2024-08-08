@@ -618,7 +618,7 @@ const GovernanceCard: FC<IGovernanceProps> = (props) => {
 						{spam_users_count && typeof spam_users_count === 'number' && spam_users_count > 0 ? (
 							<div className='flex items-center justify-center'>
 								<Tooltip
-									color='#E5007A'
+									color='#ef5a19'
 									title='This post could be a spam.'
 								>
 									<WarningMessageIcon className='text-xl text-[#FFA012]' />

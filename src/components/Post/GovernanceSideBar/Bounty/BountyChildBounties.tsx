@@ -104,11 +104,11 @@ const BountyChildBounties: FC<IBountyChildBountiesProps> = (props) => {
 
 const PaginationContainer = styled.div`
 	.pagination-container .ant-pagination-item {
-		border-color: #e5007a;
-		color: #e5007a;
+		border-color: #ef5a19;
+		color: #ef5a19;
 	}
 	.pagination-container .ant-pagination-item-active a {
-		color: #e5007a;
+		color: #ef5a19;
 	}
 `;
 

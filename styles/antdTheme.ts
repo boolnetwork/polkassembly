@@ -8,7 +8,7 @@ import { ThemeConfig } from 'antd/es/config-provider/context';
 export const antdTheme: ThemeConfig = {
 	hashed: false,
 	token: {
-		colorPrimary: '#E5007A',
+		colorPrimary: '#ef5a19',
 		fontFamily: 'var(--font-poppins)'
 	}
 };

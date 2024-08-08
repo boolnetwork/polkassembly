@@ -73,7 +73,7 @@ body {
 	line-height: 1.5;
 }
 a {
-    color: #FF60B5 !important;
+    color: #ef5a19 !important;
     text-decoration: none !important;
 	background: none !important;
 }
@@ -94,7 +94,7 @@ body {
 	line-height: 1.5;
 }
 a {
-    color: #FF60B5 !important;
+    color: #ef5a19 !important;
     text-decoration: none !important;
 	background: none !important;
 }
@@ -168,7 +168,7 @@ const TextEditor: FC<ITextEditorProps> = (props) => {
 	}, [quotedText]);
 
 	const quoteBox = quotedText
-		? `<div id="quote-box" style="border-left: 2px solid #E5007A; position: relative; border-radius: 5px;">
+		? `<div id="quote-box" style="border-left: 2px solid #ef5a19; position: relative; border-radius: 5px;">
 		<p contenteditable="false" style="width: 90%; padding: 5px 10px;  display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; text-overflow: ellipsis;">${quotedText}
 		</p>
 		</div><br><br>`

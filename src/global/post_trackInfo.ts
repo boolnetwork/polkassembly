@@ -3520,5 +3520,5 @@ export const networkTrackInfo: INetworkTrackInfo = {
 				}
 			}
 		}
-	},
+	}
 };

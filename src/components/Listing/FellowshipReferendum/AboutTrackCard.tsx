@@ -116,7 +116,7 @@ const AboutTrackCard: FC<IAboutTrackCardProps> = (props) => {
 							},
 							{
 								backgroundColor: 'transparent',
-								borderColor: '#E5007A',
+								borderColor: '#ef5a19',
 								borderWidth: 1,
 								data: supportData,
 								label: 'Support',

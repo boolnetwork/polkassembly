@@ -608,7 +608,7 @@ const GovernanceSideBar: FC<IGovernanceSidebarProps> = (props) => {
 						},
 						{
 							backgroundColor: 'transparent',
-							borderColor: '#E5007A',
+							borderColor: '#ef5a19',
 							borderWidth: 2,
 							data: supportData,
 							label: 'Support',
@@ -631,7 +631,7 @@ const GovernanceSideBar: FC<IGovernanceSidebarProps> = (props) => {
 						},
 						{
 							backgroundColor: 'transparent',
-							borderColor: '#E5007A',
+							borderColor: '#ef5a19',
 							borderDash: [4, 4],
 							borderWidth: 2,
 							data: currentSupportData,
@@ -822,7 +822,7 @@ const GovernanceSideBar: FC<IGovernanceSidebarProps> = (props) => {
 							<Tooltip
 								placement='bottom'
 								title='Decision'
-								color={'#E5007A'}
+								color={'#ef5a19'}
 								className='max-w-[100px] max-[345px]:w-auto'
 							>
 								<span className='h-[25px]'>
@@ -850,7 +850,7 @@ const GovernanceSideBar: FC<IGovernanceSidebarProps> = (props) => {
 							<Tooltip
 								placement='bottom'
 								title='Vote Date'
-								color={'#E5007A'}
+								color={'#ef5a19'}
 								className=' max-[345px]:w-auto'
 							>
 								<span className=''>
@@ -862,7 +862,7 @@ const GovernanceSideBar: FC<IGovernanceSidebarProps> = (props) => {
 							<Tooltip
 								placement='bottom'
 								title='Amount'
-								color={'#E5007A'}
+								color={'#ef5a19'}
 								className=' max-[345px]:w-auto'
 							>
 								<span>
@@ -876,7 +876,7 @@ const GovernanceSideBar: FC<IGovernanceSidebarProps> = (props) => {
 								<Tooltip
 									placement='bottom'
 									title='Conviction'
-									color={'#E5007A'}
+									color={'#ef5a19'}
 									className='ml-[-5px]'
 								>
 									<span title='Conviction'>
@@ -911,7 +911,7 @@ const GovernanceSideBar: FC<IGovernanceSidebarProps> = (props) => {
 						<Tooltip
 							placement='bottom'
 							title='Decision'
-							color={'#E5007A'}
+							color={'#ef5a19'}
 							className=''
 						>
 							<span className='h-[25px]'>
@@ -937,7 +937,7 @@ const GovernanceSideBar: FC<IGovernanceSidebarProps> = (props) => {
 						<Tooltip
 							placement='bottom'
 							title='Vote Date'
-							color={'#E5007A'}
+							color={'#ef5a19'}
 							className=''
 						>
 							<span className=''>
@@ -949,7 +949,7 @@ const GovernanceSideBar: FC<IGovernanceSidebarProps> = (props) => {
 							<Tooltip
 								placement='bottom'
 								title='Amount'
-								color={'#E5007A'}
+								color={'#ef5a19'}
 								className=''
 							>
 								<span>
@@ -964,7 +964,7 @@ const GovernanceSideBar: FC<IGovernanceSidebarProps> = (props) => {
 							<Tooltip
 								placement='bottom'
 								title='Conviction'
-								color={'#E5007A'}
+								color={'#ef5a19'}
 								className='ml-[-5px]'
 							>
 								<span title='Conviction'>
@@ -1356,7 +1356,7 @@ export default styled(memo(GovernanceSideBar))`
 		display: none;
 	}
 	.edit-icon-wrapper:hover {
-		background-image: linear-gradient(to left, #e5007a, #ffffff);
+		background-image: linear-gradient(to left, #ef5a19, #ffffff);
 	}
 	.edit-icon-wrapper:hover .edit-icon {
 		display: block;

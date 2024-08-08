@@ -74,7 +74,7 @@ const Curves: FC<ICurvesProps> = (props) => {
 						if (dataset && index === i) {
 							return {
 								...dataset,
-								borderColor: dataset.borderColor === 'transparent' ? ([0, 2].includes(i) ? '#5BC044' : '#E5007A') : 'transparent'
+								borderColor: dataset.borderColor === 'transparent' ? ([0, 2].includes(i) ? '#5BC044' : '#ef5a19') : 'transparent'
 							};
 						}
 						return { ...dataset };
@@ -243,7 +243,7 @@ const Curves: FC<ICurvesProps> = (props) => {
 							}}
 							className='flex cursor-pointer flex-col justify-center border-none bg-transparent outline-none'
 						>
-							<span className='h-1 w-[32px] border-0 border-t border-solid border-[#E5007A]'></span>
+							<span className='h-1 w-[32px] border-0 border-t border-solid border-[#ef5a19]'></span>
 							<span className='text-[8px] font-normal leading-[12px] text-sidebarBlue dark:text-white sm:text-[10px]'>Support</span>
 						</button>
 						<button
@@ -252,7 +252,7 @@ const Curves: FC<ICurvesProps> = (props) => {
 							}}
 							className='flex cursor-pointer flex-col justify-center border-none bg-transparent outline-none'
 						>
-							<span className='h-1 w-[32px] border-0 border-t border-dashed border-[#E5007A]'></span>
+							<span className='h-1 w-[32px] border-0 border-t border-dashed border-[#ef5a19]'></span>
 							<span className='text-[8px] font-normal leading-[12px] text-sidebarBlue dark:text-white sm:text-[10px]'>Current Support</span>
 						</button>
 						<button
@@ -297,7 +297,7 @@ const Curves: FC<ICurvesProps> = (props) => {
 								</span>
 							</p>
 						</div>
-						<div className='w-full rounded-[5px] border border-solid border-[#E5007A] bg-[#FFF5FB] px-3 py-2 shadow-[0px_6px_10px_rgba(0,0,0,0.06)] dark:bg-[#5A1138]'>
+						<div className='w-full rounded-[5px] border border-solid border-[#ef5a19] bg-[#FFF5FB] px-3 py-2 shadow-[0px_6px_10px_rgba(0,0,0,0.06)] dark:bg-[#5A1138]'>
 							<p className='m-0 flex items-center justify-between gap-x-2 text-[10px] leading-3 text-[#334D6E]'>
 								<span className='flex items-center gap-[6px] text-xs font-medium text-bodyBlue dark:text-white'>
 									<span>

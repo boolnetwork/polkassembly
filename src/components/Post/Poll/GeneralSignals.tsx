@@ -197,7 +197,7 @@ const GeneralSignals: FC<IGeneralSignalsProps> = ({ className, endBlock, pollId,
 					<span className='dashboard-heading mr-2 dark:text-white'>Poll Signals</span>{' '}
 					<Tooltip
 						title='This represents the off-chain votes of Polkassembly users including council members'
-						color='#E5007A'
+						color='#ef5a19'
 					>
 						<InfoIcon className='scale-90 text-2xl text-lightBlue dark:text-icon-dark-inactive' />
 					</Tooltip>

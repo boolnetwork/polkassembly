@@ -10,7 +10,6 @@ import SEOHead from 'src/global/SEOHead';
 import { getNetworkFromReqHeaders } from '~src/api-utils';
 import AboutNetwork from '~src/components/Home/AboutNetwork';
 import LatestActivity from '~src/components/Home/LatestActivity';
-import News from '~src/components/Home/News';
 import UpcomingEvents from '~src/components/Home/UpcomingEvents';
 import { isGrantsSupported } from '~src/global/grantsNetworks';
 import { LATEST_POSTS_LIMIT } from '~src/global/listingLimit';

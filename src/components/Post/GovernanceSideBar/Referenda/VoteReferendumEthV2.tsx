@@ -765,7 +765,7 @@ export default styled(VoteReferendumEthV2)`
 	.alignment-close .ant-select-selection-item {
 	}
 	.alignment-close .ant-select-focused {
-		border: 1px solid #e5007a !important;
+		border: 1px solid #ef5a19 !important;
 		border-radius: 4px !important;
 	}
 	.alignment-close .ant-segmented-item-selected {

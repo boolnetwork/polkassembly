@@ -258,7 +258,7 @@ const AboutTrackCard: FC<IAboutTrackCardProps> = (props) => {
 							},
 							{
 								backgroundColor: 'transparent',
-								borderColor: '#E5007A',
+								borderColor: '#ef5a19',
 								borderWidth: 1,
 								data: supportData,
 								label: 'Support',
@@ -287,7 +287,7 @@ const AboutTrackCard: FC<IAboutTrackCardProps> = (props) => {
 					{theme === 'dark' ? <DiscussionIconWhite /> : <DiscussionIconGrey />}
 					<h2 className='mb-0 text-xl font-semibold leading-8 text-bodyBlue dark:text-blue-dark-high'>About {trackName.split(/(?=[A-Z])/).join(' ')}</h2>
 					<Tooltip
-						color='#E5007A'
+						color='#ef5a19'
 						title='Track Number'
 						className='cursor-pointer text-bodyBlue'
 					>

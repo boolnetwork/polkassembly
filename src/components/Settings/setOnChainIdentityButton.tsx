@@ -387,7 +387,7 @@ const SetOnChainIdentityButton = ({
 	);
 	const triggerBtnLoginDisabled = (
 		<Tooltip
-			color='#E5007A'
+			color='#ef5a19'
 			title='Please signup/login to set on-chain identity'
 		>
 			{' '}

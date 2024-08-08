@@ -271,7 +271,7 @@ const Address: FC<Props> = ({ dismissModal, open }) => {
 
 		return currentUser.defaultAddress === address ? (
 			<Tooltip
-				color='#E5007A'
+				color='#ef5a19'
 				title="You can't unlink your default address"
 			>
 				<StyledUnlinkButton />

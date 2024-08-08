@@ -209,7 +209,7 @@ function CustomToolbar(props: any) {
 
 							{!props.isLoggedIn ? (
 								<Tooltip
-									color='#E5007A'
+									color='#ef5a19'
 									title='Please login to create an event'
 									placement='top'
 								>
@@ -282,7 +282,7 @@ function CustomToolbar(props: any) {
 							{!props.small ? (
 								!props.isLoggedIn ? (
 									<Tooltip
-										color='#E5007A'
+										color='#ef5a19'
 										title='Please login to create an event'
 										placement='top'
 									>

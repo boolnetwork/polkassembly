@@ -872,7 +872,7 @@ export default styled(CalendarView)`
 		.pending-events-btn {
 			margin-left: auto;
 			margin-right: auto;
-			background-color: #e5007a;
+			background-color: #ef5a19;
 			color: #fff;
 			width: 50%;
 			font-size: 16px;
@@ -890,7 +890,7 @@ export default styled(CalendarView)`
 		}
 
 		.button {
-			background-color: #e5007a;
+			background-color: #ef5a19;
 			color: #fff;
 			font-size: 13px;
 		}
@@ -936,7 +936,7 @@ export default styled(CalendarView)`
 				height: 12px;
 				width: 12px;
 				border-radius: 50%;
-				background-color: #e5007a;
+				background-color: #ef5a19;
 
 				&.overdue-color {
 					background-color: #ff0000;
@@ -973,7 +973,7 @@ export default styled(CalendarView)`
 			line-height: 24px;
 
 			a {
-				color: #e5007a;
+				color: #ef5a19;
 			}
 		}
 
@@ -1015,7 +1015,7 @@ export default styled(CalendarView)`
 		.mobile-network-select {
 			display: none;
 			margin-top: 2rem;
-			color: #e5007a;
+			color: #ef5a19;
 			font-size: 14px;
 
 			label {
@@ -1184,7 +1184,7 @@ export default styled(CalendarView)`
 		}
 
 		.rbc-show-more {
-			color: #e5007a;
+			color: #ef5a19;
 			margin-top: 6px;
 		}
 
@@ -1231,7 +1231,7 @@ export default styled(CalendarView)`
 				}
 
 				.dropdown {
-					color: #e5007a;
+					color: #ef5a19;
 				}
 
 				&.filter-by-chain-div {
@@ -1299,16 +1299,16 @@ export default styled(CalendarView)`
 				}
 
 				.btn-disabled {
-					border: rgba(229, 0, 122, 0.5) !important;
-					color: rgba(229, 0, 122, 0.5) !important;
+					border: rgba(239, 90, 25, 0.5) !important;
+					color: rgba(239, 90, 25, 0.5) !important;
 					cursor: default;
 				}
 			}
 
 			.create-event-btn {
 				border-radius: 5px;
-				border: solid 1px #e5007a;
-				color: #e5007a !important;
+				border: solid 1px #ef5a19;
+				color: #ef5a19 !important;
 				font-size: 16px;
 				padding: 10px 20px !important;
 				margin-right: 0 !important;
@@ -1504,10 +1504,10 @@ export default styled(CalendarView)`
 		}
 
 		.rbc-today {
-			background-color: rgba(229, 0, 122, 0.02);
+			background-color: rgba(239, 90, 25, 0.02);
 
 			.week-header-text {
-				color: #e5007a !important;
+				color: #ef5a19 !important;
 			}
 		}
 

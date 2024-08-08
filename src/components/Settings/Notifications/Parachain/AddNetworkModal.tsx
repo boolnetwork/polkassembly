@@ -118,7 +118,7 @@ const AddNetworkModal = ({
 										<Tag
 											key={name}
 											className={
-												'max-w-[200px] cursor-pointer items-center rounded-[34px] border border-solid border-[#E5007A] bg-[#FEF2F8] px-[12px] py-[8px] pb-[5px] text-navBlue hover:bg-[#FEF2F8] dark:bg-[#33071E]'
+												'max-w-[200px] cursor-pointer items-center rounded-[34px] border border-solid border-[#ef5a19] bg-[#FEF2F8] px-[12px] py-[8px] pb-[5px] text-navBlue hover:bg-[#FEF2F8] dark:bg-[#33071E]'
 											}
 										>
 											<Image
@@ -169,7 +169,7 @@ const AddNetworkModal = ({
 													onClick={() => handleClick(name, chain)}
 													className={`items-center rounded-[34px] px-[12px] py-[8px] text-navBlue ${
 														selected
-															? 'border border-solid border-[#E5007A] bg-[#FEF2F8] dark:bg-[#33071E]'
+															? 'border border-solid border-[#ef5a19] bg-[#FEF2F8] dark:bg-[#33071E]'
 															: 'border-white bg-white dark:border-[#3B444F] dark:bg-section-dark-overlay'
 													} max-w-[200px] cursor-pointer pb-[5px] hover:bg-[#FEF2F8] dark:bg-[#33071E]`}
 												>

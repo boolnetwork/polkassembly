@@ -76,7 +76,6 @@ export function ApiContextProvider(props: ApiContextProviderProps): React.ReactE
 	useEffect(() => {
 		if (!wsProvider && !props.network) return;
 		provider.current = new WsProvider(wsProvider || chainProperties?.[props.network!]?.rpcEndpoint);
-
 		setApiReady(false);
 		setApi(undefined);
 		let api = undefined;

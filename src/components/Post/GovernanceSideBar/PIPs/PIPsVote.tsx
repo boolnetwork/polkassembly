@@ -612,7 +612,7 @@ export default styled(PIPsVote)`
 		color: #243a57;
 	}
 	.vote-referendum .ant-select-focused {
-		border: 1px solid #e5007a !important;
+		border: 1px solid #ef5a19 !important;
 		border-radius: 4px !important;
 	}
 	.vote-referendum.ant-segmented-item-selected {

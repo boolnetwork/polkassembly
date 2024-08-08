@@ -353,7 +353,7 @@ const VotersList: FC<IVotersListProps> = (props) => {
 										</span>
 										<span className='mr-3'>
 											<Tooltip
-												color='#E5007A'
+												color='#ef5a19'
 												title='Vote Power for delegated votes is the self vote power + delegated vote power.'
 											>
 												<InfoCircleOutlined className='text-xs text-lightBlue dark:text-blue-dark-high' />

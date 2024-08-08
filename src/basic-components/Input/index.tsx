@@ -17,7 +17,7 @@ const Input: FC<PropsWithChildren<Props>> = (props) => {
 	return (
 		<AntdInput
 			{...props}
-			className={`${className} shadow-none ${theme === 'light' ? 'hover:bg-[#f6f7f9] focus:border-[#e5007a] focus:bg-white disabled:bg-[#f6f7f9]' : ''}`}
+			className={`${className} shadow-none ${theme === 'light' ? 'hover:bg-[#f6f7f9] focus:border-[#ef5a19] focus:bg-white disabled:bg-[#f6f7f9]' : ''}`}
 		/>
 	);
 };

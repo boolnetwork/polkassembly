@@ -85,7 +85,7 @@ const ReferendaV2Messages: FC<IReferendaV2Messages> = (props) => {
 		return (
 			<button
 				onClick={() => setOpen(true)}
-				className={`flex h-[30px] w-[30px] cursor-pointer items-center justify-center rounded-full border-none bg-[#FEF2F8] text-base font-normal leading-[24px] tracking-[0.01em] text-lightBlue outline-none dark:bg-[#E5007A] dark:text-white ${className}`}
+				className={`flex h-[30px] w-[30px] cursor-pointer items-center justify-center rounded-full border-none bg-[#FEF2F8] text-base font-normal leading-[24px] tracking-[0.01em] text-lightBlue outline-none dark:bg-[#ef5a19] dark:text-white ${className}`}
 			>
 				{children}
 			</button>
@@ -172,7 +172,7 @@ const ReferendaV2Messages: FC<IReferendaV2Messages> = (props) => {
 							className='m-0 flex items-center p-0'
 							showInfo={false}
 							percent={prepare.periodPercent}
-							strokeColor='#E5007A'
+							strokeColor='#ef5a19'
 							size='small'
 							trailColor={theme === 'dark' ? '#222222' : '#FEF2F8'}
 						/>
@@ -182,7 +182,7 @@ const ReferendaV2Messages: FC<IReferendaV2Messages> = (props) => {
 							<div className='flex gap-1'>
 								<span className='text-bodyblue text-sm font-normal text-bodyBlue dark:text-blue-dark-high'>Prepare Period</span>
 								<Tooltip
-									color='#E5007A'
+									color='#ef5a19'
 									title='Minimum waiting time for a referendum to proceed from submission into decision period.'
 								>
 									<InfoCircleOutlined className='text-xs font-medium leading-5 text-lightBlue dark:text-blue-dark-medium' />
@@ -221,7 +221,7 @@ const ReferendaV2Messages: FC<IReferendaV2Messages> = (props) => {
 							showInfo={false}
 							status={progressBarStatus}
 							percent={decision?.periodPercent}
-							strokeColor='#E5007A'
+							strokeColor='#ef5a19'
 							trailColor={theme === 'dark' ? '#222222' : '#FEF2F8'}
 							size='small'
 						/>
@@ -230,7 +230,7 @@ const ReferendaV2Messages: FC<IReferendaV2Messages> = (props) => {
 						<div className='flex gap-1'>
 							<span className='text-bodyblue text-sm font-normal text-bodyBlue dark:text-blue-dark-high'>Decision Period</span>
 							<Tooltip
-								color='#E5007A'
+								color='#ef5a19'
 								title='Amount of time a proposal may take to be approved. If the proposal is not approved by the end of the decision period, it gets rejected.'
 							>
 								<InfoCircleOutlined className='text-xs font-medium leading-5 text-lightBlue dark:text-blue-dark-medium' />
@@ -245,7 +245,7 @@ const ReferendaV2Messages: FC<IReferendaV2Messages> = (props) => {
 							className='m-0 flex items-center p-0'
 							showInfo={false}
 							percent={confirm.periodPercent}
-							strokeColor='#E5007A'
+							strokeColor='#ef5a19'
 							trailColor={theme === 'dark' ? '#222222' : '#FEF2F8'}
 							size='small'
 						/>
@@ -255,7 +255,7 @@ const ReferendaV2Messages: FC<IReferendaV2Messages> = (props) => {
 							<div className='flex gap-1'>
 								<span className='text-bodyblue text-sm font-normal text-bodyBlue dark:text-blue-dark-high'>Confirmation Period</span>
 								<Tooltip
-									color='#E5007A'
+									color='#ef5a19'
 									title='Total time the referenda must meet both the min approval and support criteria during the decision period in order to pass'
 								>
 									<InfoCircleOutlined className='text-xs font-medium leading-5 text-lightBlue dark:text-blue-dark-medium' />
@@ -291,7 +291,7 @@ const ReferendaV2Messages: FC<IReferendaV2Messages> = (props) => {
 									className='m-0 flex items-center p-0'
 									showInfo={false}
 									percent={minEnactment.periodPercent}
-									strokeColor='#E5007A'
+									strokeColor='#ef5a19'
 									trailColor={theme === 'dark' ? '#222222' : '#FEF2F8'}
 									size='small'
 								/>
@@ -300,7 +300,7 @@ const ReferendaV2Messages: FC<IReferendaV2Messages> = (props) => {
 								<div className='flex gap-1'>
 									<span className='text-bodyblue text-sm font-normal text-bodyBlue dark:text-blue-dark-high'>Enactment Period</span>
 									<Tooltip
-										color='#E5007A'
+										color='#ef5a19'
 										title='Time that the proposal must be in dispatch queue after approval.'
 									>
 										<InfoCircleOutlined className='text-xs font-medium leading-5 text-lightBlue dark:text-blue-dark-medium' />
@@ -316,7 +316,7 @@ const ReferendaV2Messages: FC<IReferendaV2Messages> = (props) => {
 										<ProgressBar
 											className='m-0 flex items-center p-0'
 											percent={spend.periodPercent}
-											strokeColor='#E5007A'
+											strokeColor='#ef5a19'
 											trailColor={theme === 'dark' ? '#222222' : '#FEF2F8'}
 											size='small'
 											showInfo={false}
@@ -327,7 +327,7 @@ const ReferendaV2Messages: FC<IReferendaV2Messages> = (props) => {
 											<div className='flex gap-1'>
 												<span className='text-sm font-normal text-bodyBlue dark:text-blue-dark-high'>Funds Disbursal Period</span>
 												<Tooltip
-													color='#E5007A'
+													color='#ef5a19'
 													title='Funds will be automatically dispatched to the beneficiary at the spend periods end.'
 												>
 													<InfoCircleOutlined className='text-xs font-medium leading-5 text-lightBlue dark:text-blue-dark-medium' />

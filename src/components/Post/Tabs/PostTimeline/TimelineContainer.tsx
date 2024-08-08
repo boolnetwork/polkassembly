@@ -59,7 +59,7 @@ const TimelineContainer: React.FC<ITimelineContainerProps> = (props) => {
 	} = usePostDataContext();
 	const PostType = postType.replace(/(^|_)([a-z])/g, (_, __, c) => c.toUpperCase()).replace(/s$/, '');
 	let activeColor;
-	PostType === timeline.type ? (activeColor = '#485F7D') : (activeColor = '#E5007A');
+	PostType === timeline.type ? (activeColor = '#485F7D') : (activeColor = '#ef5a19');
 	const { network } = useNetworkSelector();
 	if (!timeline) return null;
 	const { statuses, type } = timeline;
@@ -144,7 +144,7 @@ const TimelineContainer: React.FC<ITimelineContainerProps> = (props) => {
 												>
 													<ExportOutlined
 														className='-mb-[2px]'
-														style={{ color: '#e5007a' }}
+														style={{ color: '#ef5a19' }}
 													/>
 												</a>
 											)}

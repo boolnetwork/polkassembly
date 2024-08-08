@@ -23,7 +23,7 @@ export const socialLinks = (blockchain_socials: NetworkSocials) => {
 			{blockchain_socials.homepage ? (
 				<Tooltip
 					title='Homepage'
-					color='#E5007A'
+					color='#ef5a19'
 				>
 					<a
 						href={blockchain_socials.homepage}
@@ -37,7 +37,7 @@ export const socialLinks = (blockchain_socials: NetworkSocials) => {
 			{blockchain_socials.twitter ? (
 				<Tooltip
 					title='Twitter'
-					color='#E5007A'
+					color='#ef5a19'
 				>
 					<a
 						href={blockchain_socials.twitter}
@@ -51,7 +51,7 @@ export const socialLinks = (blockchain_socials: NetworkSocials) => {
 			{blockchain_socials.discord ? (
 				<Tooltip
 					title='Discord'
-					color='#E5007A'
+					color='#ef5a19'
 				>
 					<a
 						href={blockchain_socials.discord}
@@ -65,7 +65,7 @@ export const socialLinks = (blockchain_socials: NetworkSocials) => {
 			{blockchain_socials.github ? (
 				<Tooltip
 					title='Github'
-					color='#E5007A'
+					color='#ef5a19'
 				>
 					<a
 						href={blockchain_socials.github}
@@ -79,7 +79,7 @@ export const socialLinks = (blockchain_socials: NetworkSocials) => {
 			{blockchain_socials.youtube ? (
 				<Tooltip
 					title='Youtube'
-					color='#E5007A'
+					color='#ef5a19'
 				>
 					<a
 						href={blockchain_socials.youtube}
@@ -93,7 +93,7 @@ export const socialLinks = (blockchain_socials: NetworkSocials) => {
 			{blockchain_socials.reddit ? (
 				<Tooltip
 					title='Reddit'
-					color='#E5007A'
+					color='#ef5a19'
 				>
 					<a
 						href={blockchain_socials.reddit}
@@ -107,7 +107,7 @@ export const socialLinks = (blockchain_socials: NetworkSocials) => {
 			{blockchain_socials.telegram ? (
 				<Tooltip
 					title='Telegram'
-					color='#E5007A'
+					color='#ef5a19'
 				>
 					<a
 						href={blockchain_socials.telegram}
@@ -121,7 +121,7 @@ export const socialLinks = (blockchain_socials: NetworkSocials) => {
 			{blockchain_socials.block_explorer ? (
 				<Tooltip
 					title='Block Explorer'
-					color='#E5007A'
+					color='#ef5a19'
 				>
 					<a
 						href={blockchain_socials.block_explorer}

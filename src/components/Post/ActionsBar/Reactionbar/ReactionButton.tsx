@@ -173,7 +173,7 @@ const ReactionButton: FC<IReactionButtonProps> = ({
 
 	return usernames?.length > 0 ? (
 		<Tooltip
-			color='#E5007A'
+			color='#ef5a19'
 			title={popupContent}
 		>
 			{button}

@@ -94,7 +94,7 @@ const Status: any = {
 					{obj.spam_users_count ? (
 						<div className='flex items-center justify-center'>
 							<Tooltip
-								color='#E5007A'
+								color='#ef5a19'
 								title='This post could be a spam.'
 							>
 								<WarningMessageIcon className='text-lg text-[#FFA012]' />

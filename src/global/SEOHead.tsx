@@ -55,7 +55,7 @@ const SEOHead = ({ title, desc, network }: Props) => {
 			/>
 			<meta
 				name='theme-color'
-				content='#E5007A'
+				content='#ef5a19'
 			/>
 			<meta
 				property='og:title'

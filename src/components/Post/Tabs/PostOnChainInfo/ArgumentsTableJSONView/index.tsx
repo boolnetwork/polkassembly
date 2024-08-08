@@ -92,7 +92,7 @@ export default styled(ArgumentsTableJSONView)`
 		background: transparent !important;
 	}
 	.ant-tabs .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
-		color: ${(props: any) => (props.theme == 'dark' ? '#e5007a' : '')} !important;
+		color: ${(props: any) => (props.theme == 'dark' ? '#ef5a19' : '')} !important;
 	}
 	.ant-tabs-tab-active {
 		border: ${(props: any) => (props.theme == 'dark' ? 'none' : '')} !important;

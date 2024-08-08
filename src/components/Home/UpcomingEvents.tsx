@@ -411,7 +411,7 @@ const UpcomingEvents = ({ className }: Props) => {
 
 			return (
 				<Tooltip
-					color='#E5007A'
+					color='#ef5a19'
 					title={eventList}
 				>
 					<div className='calenderDate dark:bg-[#FF0088]'>{value.format('D')}</div>
@@ -513,7 +513,7 @@ export default styled(UpcomingEvents)`
 
 	.ant-picker-cell-in-view.ant-picker-cell-today .ant-picker-cell-inner::before {
 		border-radius: 50% !important;
-		border: 1.5px solid #e5007a;
+		border: 1.5px solid #ef5a19;
 	}
 	.calenderDate {
 		margin-top: -24px;

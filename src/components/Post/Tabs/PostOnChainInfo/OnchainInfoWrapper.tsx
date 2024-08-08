@@ -80,7 +80,7 @@ export default styled(OnchainInfoWrapper)`
 		.buttons {
 			margin-left: 12px;
 			.active-btn {
-				background: #e5007a !important;
+				background: #ef5a19 !important;
 				color: #fff;
 			}
 		}
