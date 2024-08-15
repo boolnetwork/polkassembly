@@ -269,7 +269,7 @@ const DecisionDepositCard = ({ className, trackName, openModal, setOpenModal }: 
 				<div className='flex flex-col px-2'>
 					<h3 className='text-center text-sm font-normal text-[#485F7D] dark:text-blue-dark-medium'>Select a wallet</h3>
 					<div className='mb-6 flex items-center justify-center gap-x-4'>
-						{['moonbase', 'moonbeam', 'moonriver'].includes(network) ? (
+						{['moonbase', 'moonbeam', 'moonriver', 'bool_beta_testnet'].includes(network) ? (
 							<>
 								{availableWallets[Wallet.TALISMAN] && (
 									<WalletButton
@@ -285,7 +285,7 @@ const DecisionDepositCard = ({ className, trackName, openModal, setOpenModal }: 
 										}
 									/>
 								)}
-								{['moonbase', 'moonbeam', 'moonriver'].includes(network) && isMetamaskWallet && (
+								{['moonbase', 'moonbeam', 'moonriver', 'bool_beta_testnet'].includes(network) && isMetamaskWallet && (
 									<WalletButton
 										disabled={!apiReady}
 										className={`${wallet === Wallet.METAMASK ? 'h-[44px] w-[56px] border border-solid border-pink_primary' : 'h-[44px] w-[56px]'}`}

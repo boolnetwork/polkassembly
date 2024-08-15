@@ -44,7 +44,8 @@ export const votesUnlockUnavailableNetworks = [
 	AllNetworks.POLYMESH,
 	AllNetworks.COLLECTIVES,
 	AllNetworks.WESTENDCOLLECTIVES,
-	AllNetworks.MOONBEAM
+	AllNetworks.MOONBEAM,
+	AllNetworks.BOOL_BETA_TESTNET
 ];
 const ZERO_BN = new BN(0);
 export const handlePrevData = (data: IUnlockTokenskData[]) => {
@@ -368,7 +369,7 @@ const VoteUnlock = ({ className, addresses, isReferendaPage, referendumIndex }: 
 						lockedBalance={lockedBalance}
 						totalUnlockableBalance={totalUnlockableBalance}
 					/>
-					{![AllNetworks.MOONBEAM, AllNetworks.MOONBASE, AllNetworks.MOONRIVER].includes(network) && (
+					{![AllNetworks.MOONBEAM, AllNetworks.MOONBASE, AllNetworks.MOONRIVER, AllNetworks.BOOL_BETA_TESTNET].includes(network) && (
 						<div className='-mx-6 mt-8 flex items-center border-0 border-t-[1px] border-solid border-section-light-container px-6 dark:border-[#3B444F] dark:border-separatorDark'>
 							<CustomButton
 								variant='primary'

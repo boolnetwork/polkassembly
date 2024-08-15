@@ -21,7 +21,7 @@ const AvailableWallets = ({ className, handleWalletClick, isMetamaskWallet, wall
 
 	return (
 		<div className={className}>
-			{['moonbase', 'moonbeam', 'moonriver'].includes(network) ? (
+			{['moonbase', 'moonbeam', 'moonriver', 'bool_beta_testnet'].includes(network) ? (
 				<>
 					{availableWallets[Wallet.TALISMAN] && (
 						<WalletButton
@@ -37,7 +37,7 @@ const AvailableWallets = ({ className, handleWalletClick, isMetamaskWallet, wall
 							}
 						/>
 					)}
-					{['moonbase', 'moonbeam', 'moonriver'].includes(network) && isMetamaskWallet && (
+					{['moonbase', 'moonbeam', 'moonriver', 'bool_beta_testnet'].includes(network) && isMetamaskWallet && (
 						<WalletButton
 							disabled={!apiReady}
 							className={`h-[44px] w-[70px] rounded-[7px] ${wallet === Wallet.METAMASK && 'border border-solid border-pink_primary'}`}

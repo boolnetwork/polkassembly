@@ -43,7 +43,7 @@ const ALGOLIA_APP_ID = process.env.NEXT_PUBLIC_ALGOLIA_APP_ID;
 const ALGOLIA_SEARCH_API_KEY = process.env.NEXT_PUBLIC_ALGOLIA_SEARCH_API_KEY;
 export const algolia_client = algoliasearch(ALGOLIA_APP_ID || '', ALGOLIA_SEARCH_API_KEY || '');
 
-export const allowedNetwork = ['KUSAMA', 'POLKADOT', 'POLKADEX', 'CERE', 'MOONBEAM', 'MOONRIVER', 'MOONBASE'];
+export const allowedNetwork = ['KUSAMA', 'POLKADOT', 'POLKADEX', 'CERE', 'MOONBEAM', 'MOONRIVER', 'MOONBASE', 'BOOL_BETA_TESTNET'];
 
 const AUTOCOMPLETE_INDEX_LIMIT = 5;
 

@@ -46,7 +46,7 @@ const ProposalDisplay: FC<IProposalDisplayProps> = (props) => {
 			<h6 className='dashboard-heading mb-6 dark:text-white'>Second this Proposal!</h6>
 			{canVote && (
 				<>
-					{['moonbase', 'moonbeam', 'moonriver'].includes(network) ? (
+					{['moonbase', 'moonbeam', 'moonriver', 'bool_beta_testnet'].includes(network) ? (
 						<>
 							{metaMaskError && !walletConnectProvider?.wc.connected && <>{metaMaskError}</>}
 							{(!metaMaskError || walletConnectProvider?.wc.connected) && (

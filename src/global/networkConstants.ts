@@ -187,7 +187,7 @@ export const tokenSymbol = {
 
 export const chainProperties: types.ChainPropType = {
 	[network.BOOL_BETA_TESTNET]: {
-		preImageBaseDeposit: '400000000000',
+		preImageBaseDeposit: '10000000000000000000000',
 		blockTime: 3000,
 		category: 'test',
 		chainId: 481,

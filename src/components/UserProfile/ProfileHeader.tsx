@@ -80,7 +80,7 @@ const ProfileHeader = ({ className, userProfile, profileDetails, setProfileDetai
 									</div>
 								</CustomButton>
 							)}
-							{!['moonbeam', 'moonbase', 'moonriver'].includes(network) && isOpenGovSupported(network) && (
+							{!['moonbeam', 'moonbase', 'moonriver', 'bool_beta_testnet'].includes(network) && isOpenGovSupported(network) && (
 								<CustomButton
 									variant='primary'
 									shape='circle'

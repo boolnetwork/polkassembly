@@ -70,7 +70,8 @@ const WalletConnectLogin = ({ className, setDisplayWeb2, setPolkadotWallet, isMo
 			rpc: {
 				1284: 'https://rpc.api.moonbeam.network',
 				1285: 'https://rpc.api.moonriver.moonbeam.network',
-				1287: 'https://rpc.api.moonbase.moonbeam.network'
+				1287: 'https://rpc.api.moonbase.moonbeam.network',
+				481: 'http://127.0.0.1:9944'
 			}
 		});
 		setProvider(wcPprovider);

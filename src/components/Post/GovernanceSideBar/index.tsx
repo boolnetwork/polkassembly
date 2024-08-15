@@ -502,15 +502,16 @@ const GovernanceSideBar: FC<IGovernanceSidebarProps> = (props) => {
 							const graph_points = data?.curveData || [];
 							if (graph_points?.length > 0) {
 								const lastGraphPoint = graph_points[graph_points.length - 1];
-								const proposalCreatedAt = dayjs(statusBlock?.timestamp || created_at);
-								const decisionPeriodMinutes = dayjs(lastGraphPoint.timestamp).diff(proposalCreatedAt, 'hour');
+								// const proposalCreatedAt = dayjs(statusBlock?.timestamp || created_at);
+								const proposalCreatedAt = dayjs(created_at);
+								const decisionPeriodMinutes = dayjs(lastGraphPoint.timestamp).add(8, 'hour').diff(proposalCreatedAt, 'hour');
 								if (decisionPeriodMinutes > decisionPeriodHrs) {
 									labels = [];
 									approvalData = [];
 									supportData = [];
 								}
 								graph_points?.forEach((graph_point: any) => {
-									const hour = dayjs(graph_point.timestamp).diff(proposalCreatedAt, 'hour');
+									const hour = dayjs(graph_point.timestamp).add(8, 'hour').diff(proposalCreatedAt, 'hour');
 									const new_graph_point = {
 										...graph_point,
 										hour
@@ -569,6 +570,11 @@ const GovernanceSideBar: FC<IGovernanceSidebarProps> = (props) => {
 									support: support ? support.toFormat(2, BigNumber.ROUND_UP) : (currentSupport?.y?.toFixed(1) as any),
 									supportThreshold: (supportData.find((data) => data && data?.x >= currentSupport?.x)?.y as any) || 0
 								};
+								console.log(`progress params approval:  ${progress.approval}`);
+								console.log(`progress params approvalThreshold:  ${progress.approvalThreshold}`);
+								console.log(`progress params support:  ${progress.support}`);
+								console.log(`progress params supportThreshold:  ${progress.supportThreshold}`);
+
 								setProgress(progress);
 							}
 						} else {
@@ -747,7 +753,7 @@ const GovernanceSideBar: FC<IGovernanceSidebarProps> = (props) => {
 	const handleRemoveVote = async () => {
 		if (!api || !apiReady || !track_number) return;
 		setLoading(true);
-		if (['moonbeam', 'moonbase', 'moonriver'].includes(network)) {
+		if (['moonbeam', 'moonbase', 'moonriver', 'bool_beta_testnet'].includes(network)) {
 			const web3 = new BrowserProvider((window as any).ethereum);
 
 			const { chainId } = await web3.getNetwork();
@@ -1081,7 +1087,7 @@ const GovernanceSideBar: FC<IGovernanceSidebarProps> = (props) => {
 									<>
 										{canVote && (
 											<>
-												{['moonbase', 'moonbeam', 'moonriver'].includes(network) ? (
+												{['moonbase', 'moonbeam', 'moonriver', 'bool_beta_testnet'].includes(network) ? (
 													<>
 														{metaMaskError && !walletConnectProvider?.wc.connected && <GovSidebarCard>{metaMaskError}</GovSidebarCard>}
 
@@ -1131,7 +1137,7 @@ const GovernanceSideBar: FC<IGovernanceSidebarProps> = (props) => {
 									<>
 										{canVote && (
 											<>
-												{['moonbase', 'moonbeam', 'moonriver'].includes(network) ? (
+												{['moonbase', 'moonbeam', 'moonriver', 'bool_beta_testnet'].includes(network) ? (
 													<>
 														{metaMaskError && !walletConnectProvider?.wc.connected && <GovSidebarCard>{metaMaskError}</GovSidebarCard>}
 

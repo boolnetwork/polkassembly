@@ -85,7 +85,7 @@ const getWSProvider = (network: string) => {
 	}
 };
 
-const AllNetworks = ['kusama', 'moonbase', 'moonriver', 'moonbeam', 'vara', 'polkadot', 'picasso', 'rococo', 'westend'];
+const AllNetworks = ['kusama', 'moonbase', 'moonriver', 'moonbeam', 'vara', 'polkadot', 'picasso', 'rococo', 'westend', 'bool_beta_testnet'];
 
 const getDelegationSplit = (data: IDataType, type: EVoteType) => {
 	let convictionData = { delegated: ZERO_BN, index: data?.index, solo: ZERO_BN };

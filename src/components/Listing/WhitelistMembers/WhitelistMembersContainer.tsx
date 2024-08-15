@@ -34,7 +34,7 @@ const WhitelistMembersContainer = ({ className, membersType }: { className?: str
 
 		// using any because it returns some Codec types
 
-		if (['moonbeam', 'moonbase', 'moonriver'].includes(network)) {
+		if (['moonbeam', 'moonbase', 'moonriver', 'bool_beta_testnet'].includes(network)) {
 			if (!api.query.openTechCommitteeCollective) {
 				setNoMembers(true);
 				return;

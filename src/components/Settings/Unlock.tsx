@@ -18,7 +18,7 @@ const Unlock: FC<IUnlockProps> = (props) => {
 	const [isBalanceUpdated, setIsBalanceUpdated] = useState(false);
 	return (
 		<>
-			{!metaMaskError && ['moonbase', 'moonriver', 'moonbeam'].includes(network) ? (
+			{!metaMaskError && ['moonbase', 'moonriver', 'moonbeam', 'bool_beta_testnet'].includes(network) ? (
 				<>
 					<DemocracyUnlock
 						isBalanceUpdated={isBalanceUpdated}
@@ -27,7 +27,7 @@ const Unlock: FC<IUnlockProps> = (props) => {
 					<Divider />
 				</>
 			) : null}
-			{!metaMaskError && ['moonbase', 'moonriver', 'moonbeam'].includes(network) ? (
+			{!metaMaskError && ['moonbase', 'moonriver', 'moonbeam', 'bool_beta_testnet'].includes(network) ? (
 				<>
 					<ReferendaUnlock
 						isBalanceUpdated={isBalanceUpdated}

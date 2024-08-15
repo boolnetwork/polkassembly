@@ -449,7 +449,7 @@ const Address: FC<Props> = ({ dismissModal, open }) => {
 									getAllAccounts({
 										api,
 										apiReady,
-										get_erc20: ['moonbase', 'moonriver', 'moonbeam'].includes(network),
+										get_erc20: ['moonbase', 'moonriver', 'moonbeam', 'bool_beta_testnet'].includes(network),
 										network
 									})
 										.then((res) => {

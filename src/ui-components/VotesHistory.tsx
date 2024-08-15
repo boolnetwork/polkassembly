@@ -221,7 +221,7 @@ const VotesHistory = ({ className, userProfile, statsArr, setStatsArr, totalVote
 		};
 
 		if (!api || !apiReady || isNaN(trackNum)) return;
-		if (['moonbeam', 'moonbase', 'moonriver'].includes(network)) {
+		if (['moonbeam', 'moonbase', 'moonriver', 'bool_beta_testnet'].includes(network)) {
 			setRemoveVoteLoading({ ids: [...(removeVoteLoading?.ids || []), postIndex], loading: true });
 			const web3 = new BrowserProvider((window as any).ethereum);
 
