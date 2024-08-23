@@ -8,7 +8,7 @@ import WalletConnectProvider from '@walletconnect/web3-provider';
 import styled from 'styled-components';
 import { Modal, Spin } from 'antd';
 import React, { useEffect, useState } from 'react';
-import { chainProperties } from 'src/global/networkConstants';
+import { chainProperties as AllNetworks, chainProperties } from 'src/global/networkConstants';
 import AccountSelectionForm from 'src/ui-components/AccountSelectionForm';
 import queueNotification from 'src/ui-components/QueueNotification';
 import getNetwork from 'src/util/getNetwork';
@@ -74,7 +74,7 @@ const SecondProposalEth = ({ className, proposalId, seconds }: SecondProposalPro
 				1284: 'https://rpc.api.moonbeam.network',
 				1285: 'https://rpc.api.moonriver.moonbeam.network',
 				1287: 'https://rpc.api.moonbase.moonbeam.network',
-				481: 'http://127.0.0.1:9944'
+				481: AllNetworks['BOOL_BETA_TESTNET'].rpcEndpoint.replace('ws', 'http')
 			}
 		});
 		await wcPprovider.wc.createSession();

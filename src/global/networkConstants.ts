@@ -192,7 +192,7 @@ export const chainProperties: types.ChainPropType = {
 		category: 'test',
 		chainId: 481,
 		logo: boolLogo,
-		rpcEndpoint: 'ws://192.168.81.252:9944',
+		rpcEndpoint: 'ws://192.168.81.252:9933',
 		ss58Format: 0,
 		subsquidUrl: 'http://192.168.81.252:4350/graphql',
 		tokenDecimals: 18,
@@ -206,7 +206,7 @@ export const chainProperties: types.ChainPropType = {
 		rpcEndpoints: [
 			{
 				label: 'via Bool(recommended)',
-				key: 'ws://192.168.81.252:9944'
+				key: 'ws://192.168.81.252:9933'
 			}
 		]
 	},

@@ -8,7 +8,7 @@ import WalletConnectProvider from '@walletconnect/web3-provider';
 import { Divider } from 'antd';
 import { useRouter } from 'next/router';
 import React, { useEffect, useState } from 'react';
-import { chainProperties } from 'src/global/networkConstants';
+import { chainProperties as AllNetworks, chainProperties } from 'src/global/networkConstants';
 import { handleTokenChange } from 'src/services/auth.service';
 import AccountSelectionForm from 'src/ui-components/AccountSelectionForm';
 import FilteredError from 'src/ui-components/FilteredError';
@@ -71,7 +71,7 @@ const WalletConnectLogin = ({ className, setDisplayWeb2, setPolkadotWallet, isMo
 				1284: 'https://rpc.api.moonbeam.network',
 				1285: 'https://rpc.api.moonriver.moonbeam.network',
 				1287: 'https://rpc.api.moonbase.moonbeam.network',
-				481: 'http://127.0.0.1:9944'
+				481: AllNetworks['BOOL_BETA_TESTNET'].rpcEndpoint.replace('ws', 'http')
 			}
 		});
 		setProvider(wcPprovider);

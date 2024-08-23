@@ -16,7 +16,7 @@ import styled from 'styled-components';
 import { ChallengeMessage, TokenType } from '~src/auth/types';
 import { Wallet } from '~src/types';
 import nextApiClientFetch from '~src/util/nextApiClientFetch';
-
+import { chainProperties as AllNetworks } from '~src/global/networkConstants';
 import { ModalContext } from '../../context/ModalContext';
 import { handleTokenChange } from '../../services/auth.service';
 import AccountSelectionForm from '../../ui-components/AccountSelectionForm';
@@ -64,7 +64,7 @@ const WalletConnectSignup = ({ className, setMethod, isModal, setSignupOpen }: P
 				1284: 'https://rpc.api.moonbeam.network',
 				1285: 'https://rpc.api.moonriver.moonbeam.network',
 				1287: 'https://rpc.api.moonbase.moonbeam.network',
-				481: 'http://127.0.0.1:9944'
+				481: AllNetworks['BOOL_BETA_TESTNET'].rpcEndpoint.replace('ws', 'http')
 			}
 		});
 		setProvider(wcPprovider);
