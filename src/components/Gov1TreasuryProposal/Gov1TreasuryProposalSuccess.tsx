@@ -40,7 +40,7 @@ const Gov1TreasuryProposalSuccess = ({ open, setOpen, setStep }: Props) => {
 			maskClosable={false}
 			footer={
 				<Link
-					href={`https://${network}.polkassembly.io/treasury/${proposalIndex}`}
+					href={`https://test-governance.bool.network/treasury/${proposalIndex}`}
 					className='mb-2 flex items-center'
 					target='_blank'
 					rel='noopener noreferrer'

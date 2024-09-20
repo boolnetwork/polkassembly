@@ -41,14 +41,14 @@ const Footer = ({ className }: { className?: string }) => {
 				<div className='flex flex-col md:flex-row '>
 					{/* Logo and Network Link */}
 					<div>
-						<div className='flex justify-center sm:justify-start'>
+						{/* <div className='flex justify-center sm:justify-start'>
 							<Link
 								className='flex'
 								href='/'
 							>
 								{theme === 'dark' ? <PaLogoDark className='h-auto w-[180px]' /> : <PaLogo className='h-auto w-[180px]' />}
 							</Link>
-						</div>
+						</div> */}
 
 						<div className='mt-3 flex justify-center max-[650px]:hidden md:inline-block'>
 							<Space
@@ -56,7 +56,7 @@ const Footer = ({ className }: { className?: string }) => {
 								className='items-center '
 							>
 								<a
-									href={'https://twitter.com/polk_gov'}
+									href={'https://twitter.com/bool_official'}
 									target='_blank'
 									rel='noreferrer'
 								>
@@ -68,7 +68,7 @@ const Footer = ({ className }: { className?: string }) => {
 								</a>
 
 								<a
-									href={'https://discord.com/invite/CYmYWHgPha'}
+									href={'https://discord.com/invite/DVd4q9qq7a'}
 									target='_blank'
 									rel='noreferrer'
 								>
@@ -80,7 +80,7 @@ const Footer = ({ className }: { className?: string }) => {
 								</a>
 
 								<a
-									href={'https://t.me/+6WQDzi6RuIw3YzY1'}
+									href={'https://t.me/BOOLCommunity'}
 									target='_blank'
 									rel='noreferrer'
 								>
@@ -90,25 +90,13 @@ const Footer = ({ className }: { className?: string }) => {
 										<TelegramIcon className='text-sm text-lightBlue md:mr-1 md:text-lg' />
 									)}
 								</a>
-
-								<a
-									href={'https://polkassembly.io/'}
-									target='_blank'
-									rel='noreferrer'
-								>
-									{theme === 'dark' ? (
-										<InternetDarkIcon className='text-sm text-lightBlue md:mr-1 md:text-lg' />
-									) : (
-										<InternetIcon className='text-sm text-lightBlue md:mr-1 md:text-lg' />
-									)}
-								</a>
 							</Space>
 						</div>
 					</div>
 
 					{/* Terms Links */}
 					<div className='mx-auto mt-8 flex flex-col justify-center md:mx-0 md:ml-auto md:mt-0 md:flex-row md:justify-end'>
-						<div className='text-center sm:text-left md:ml-10 lg:ml-14'>
+						{/* <div className='text-center sm:text-left md:ml-10 lg:ml-14'>
 							<p className='mb-[-5px] text-lg font-bold text-bodyBlue dark:text-blue-dark-high max-[650px]:mt-[-15px] '>Help Center</p>
 
 							<nav
@@ -151,11 +139,10 @@ const Footer = ({ className }: { className?: string }) => {
 									</div>
 								</div>
 							</nav>
-						</div>
+						</div> */}
 
 						<div className='mt-8 text-center font-normal text-lightBlue dark:text-blue-dark-high sm:text-left md:ml-10 md:mt-0 lg:ml-14'>
-							<p className='mb-[-5px] text-lg font-bold text-bodyBlue dark:text-blue-dark-high max-[650px]:mt-[-15px] '>Our Services</p>
-
+							{/* <p className='mb-[-5px] text-lg font-bold text-bodyBlue dark:text-blue-dark-high max-[650px]:mt-[-15px] '>Our Services</p> */}
 							<nav
 								aria-label='Footer Services Nav'
 								className='mt-4 md:mt-3'
@@ -163,7 +150,7 @@ const Footer = ({ className }: { className?: string }) => {
 								<div className='space-y-2 text-sm'>
 									<div>
 										<a
-											href='https://docs.polkassembly.io/'
+											href='https://docs.bool.network/'
 											target='_blank'
 											rel='noreferrer'
 										>
@@ -172,13 +159,13 @@ const Footer = ({ className }: { className?: string }) => {
 										<RedirectIcon className='ml-3 text-lightBlue dark:text-blue-dark-high' />
 									</div>
 
-									<div className='max-[650px]:hidden'>
+									{/* <div className='max-[650px]:hidden'>
 										<Link href={'/terms-of-website'}>Terms of Website</Link>
 									</div>
 
 									<div className='max-[650px]:hidden'>
 										<Link href={'/privacy'}>Privacy Policy</Link>
-									</div>
+									</div> */}
 								</div>
 							</nav>
 						</div>
@@ -189,10 +176,10 @@ const Footer = ({ className }: { className?: string }) => {
 				<Divider className='mb-0' />
 				<div className='mt-5 pb-3 text-sm font-medium text-lightBlue dark:text-blue-dark-medium'>
 					<div className='text-center sm:flex sm:justify-between sm:text-left'>
-						<div className='flex max-[650px]:flex-col'>
+						{/* <div className='flex max-[650px]:flex-col'>
 							<p className=' mr-1 max-[650px]:mb-0 '>A House of Commons Initiative.</p>
 							<p className='mt-4 sm:mt-0 '>Polka Labs Private Limited {new Date().getFullYear()}</p>
-						</div>
+						</div> */}
 
 						<p className='mb-0'>
 							<span className='block sm:inline'>All rights reserved.</span>
@@ -206,7 +193,7 @@ const Footer = ({ className }: { className?: string }) => {
 							className='items-center '
 						>
 							<a
-								href={'https://twitter.com/polk_gov'}
+								href={'https://twitter.com/bool_official'}
 								target='_blank'
 								rel='noreferrer'
 							>
@@ -214,7 +201,7 @@ const Footer = ({ className }: { className?: string }) => {
 							</a>
 
 							<a
-								href={'https://discord.com/invite/CYmYWHgPha'}
+								href={'https://discord.com/invite/DVd4q9qq7a'}
 								target='_blank'
 								rel='noreferrer'
 							>
@@ -222,24 +209,16 @@ const Footer = ({ className }: { className?: string }) => {
 							</a>
 
 							<a
-								href={'https://t.me/+6WQDzi6RuIw3YzY1'}
+								href={'https://t.me/BOOLCommunity'}
 								target='_blank'
 								rel='noreferrer'
 							>
 								{theme === 'dark' ? <TelegramIconDarkSm className='text-sm md:mr-1 md:text-lg' /> : <TelegramIconSm className='text-sm text-lightBlue md:mr-1 md:text-lg' />}
 							</a>
-
-							<a
-								href={'https://polkassembly.io/'}
-								target='_blank'
-								rel='noreferrer'
-							>
-								{theme === 'dark' ? <InternetIconDarkSm className='text-sm md:mr-1 md:text-lg' /> : <InternetIconSm className='text-sm text-lightBlue md:mr-1 md:text-lg' />}
-							</a>
 						</Space>
 					</div>
 
-					<div className='mt-2 flex flex-col justify-center text-[10px] font-normal leading-[15px] text-[#96A4B6]'>
+					{/* <div className='mt-2 flex flex-col justify-center text-[10px] font-normal leading-[15px] text-[#96A4B6]'>
 						<div className='flex justify-center'>
 							<Link href='/terms-and-conditions'>Terms and Conditions</Link>
 							<Link
@@ -255,15 +234,15 @@ const Footer = ({ className }: { className?: string }) => {
 						>
 							Privacy Policy
 						</Link>
-					</div>
+					</div> */}
 				</div>
 			</div>
-			<AiBot
+			{/* <AiBot
 				isAIChatBotOpen={isAIChatBotOpen}
 				setIsAIChatBotOpen={setIsAIChatBotOpen}
 				floatButtonOpen={floatButtonOpen}
 				setFloatButtonOpen={setFloatButtonOpen}
-			/>
+			/> */}
 		</footer>
 	);
 };

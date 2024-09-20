@@ -10,7 +10,7 @@ export default function getPrivacyPolicy(network: string) {
 
   ## What does this notice cover?
 
-  This notice applies to Premiurly&#39;s online forum, Polkassembly at https://${network}.polkassembly.io (the &quot;**Forum**&quot;). This notice describes how Premiurly will use data collected as part of the Forum.
+  This notice applies to Premiurly&#39;s online forum, Polkassembly at https://test-governance.bool.network (the &quot;**Forum**&quot;). This notice describes how Premiurly will use data collected as part of the Forum.
 
   It also describes your data protection rights, including a right to object to some of the processing which Premiurly carries out. More information about your rights, and how to exercise them, is set out in the &quot;What rights do I have?&quot; section.
 

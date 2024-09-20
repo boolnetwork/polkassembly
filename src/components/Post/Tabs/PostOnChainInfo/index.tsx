@@ -583,14 +583,14 @@ const PostOnChainInfo: FC<IPostOnChainInfoProps> = (props) => {
 							<p className='col-span-6 leading-6 text-blue-light-high dark:font-normal dark:text-blue-dark-high'>{description}</p>
 						</div>
 					) : null}
-					{
+					{/* {
 						<ExternalLinks
 							className='mt-5'
 							proposalType={proposalType}
 							onchainId={post_id}
 							blockNumber={blockNumber}
 						/>
-					}
+					} */}
 				</OnchainInfoWrapper>
 			</div>
 		</>

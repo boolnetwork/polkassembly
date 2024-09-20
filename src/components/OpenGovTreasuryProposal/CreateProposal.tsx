@@ -381,12 +381,12 @@ const CreateProposal = ({
 								rel='noreferrer'
 								href={`/preimages/${preimageHash}`}
 								className='font-medium text-bodyBlue dark:text-blue-dark-high'
-							>{`https://${network}.polkassembly.io/preimages/${preimageHash.slice(0, 5)}...`}</a>
+							>{`https://test-governance.bool.network/preimages/${preimageHash.slice(0, 5)}...`}</a>
 							<span
 								className='flex cursor-pointer items-center'
 								onClick={(e) => {
 									e.preventDefault();
-									copyLink(`https://${network}.polkassembly.io/preimages/${preimageHash}`);
+									copyLink(`https://test-governance.bool.network/preimages/${preimageHash}`);
 									success('Preimage link copied to clipboard.');
 								}}
 							>

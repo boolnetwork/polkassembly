@@ -51,7 +51,7 @@ const Settings: FC<Props> = (props) => {
 	const tabItems = useMemo(
 		() => [
 			{ children: <UserAccount network={network} />, key: 'account', label: 'Account' },
-			{ children: AVAILABLE_NETWORK.includes(network) ? <Notifications network={network} /> : <NotificationUpgradingState />, key: 'notifications', label: 'Notifications' },
+			// { children: AVAILABLE_NETWORK.includes(network) ? <Notifications network={network} /> : <NotificationUpgradingState />, key: 'notifications', label: 'Notifications' },
 			{ children: <Tracker network={network} />, key: 'tracker', label: 'Tracker' }
 		],
 		[network]

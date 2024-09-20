@@ -104,25 +104,25 @@ const Gov2LatestActivity = ({ className, gov2LatestPosts }: { className?: string
 					count={gov2LatestPosts.allGov2Posts?.data?.count}
 				/>
 			)
-		},
-		{
-			children: (
-				<PostsTable
-					count={gov2LatestPosts.discussionPosts?.data?.count || 0}
-					columns={getColumns(ProposalType.DISCUSSIONS)}
-					error={gov2LatestPosts?.discussionPosts?.error}
-					posts={gov2LatestPosts?.discussionPosts?.data?.posts}
-					type={ProposalType.DISCUSSIONS}
-				/>
-			),
-			key: 'discussions',
-			label: (
-				<CountBadgePill
-					label='Discussions'
-					count={gov2LatestPosts.discussionPosts?.data?.count}
-				/>
-			)
 		}
+		// {
+		// 	children: (
+		// 		<PostsTable
+		// 			count={gov2LatestPosts.discussionPosts?.data?.count || 0}
+		// 			columns={getColumns(ProposalType.DISCUSSIONS)}
+		// 			error={gov2LatestPosts?.discussionPosts?.error}
+		// 			posts={gov2LatestPosts?.discussionPosts?.data?.posts}
+		// 			type={ProposalType.DISCUSSIONS}
+		// 		/>
+		// 	),
+		// 	key: 'discussions',
+		// 	label: (
+		// 		<CountBadgePill
+		// 			label='Discussions'
+		// 			count={gov2LatestPosts.discussionPosts?.data?.count}
+		// 		/>
+		// 	)
+		// }
 	];
 
 	if (network) {

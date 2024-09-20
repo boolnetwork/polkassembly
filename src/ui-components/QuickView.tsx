@@ -102,9 +102,9 @@ const QuickView = ({
 	const getUserRedirection = (username: string, address: string) => {
 		if (!network) return null;
 		if (username?.length) {
-			return `https://${network}.polkassembly.io/user/${polkassemblyUsername}`;
+			return `https://test-governance.bool.network/user/${polkassemblyUsername}`;
 		} else if (address?.length) {
-			return `https://${network}.polkassembly.io/address/${address}`;
+			return `https://test-governance.bool.network/address/${address}`;
 		}
 		return null;
 	};

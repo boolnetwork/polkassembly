@@ -48,10 +48,10 @@ const extractContent = async (markdownContent: string, network: any) => {
 				const address = addressWithNetwork.split('-')[0]; // splitting the address and network
 				const { data, error } = await getProfileWithAddress({ address: address });
 				if (data && !error) {
-					const link = `https://${network}.polkassembly.io/user/${data?.username}`;
+					const link = `https://test-governance.bool.network/user/${data?.username}`;
 					updatedContent = updatedContent.replace(match, `[${label}](${link})`);
 				} else {
-					const link = `https://${network}.polkassembly.io/address/${address}`;
+					const link = `https://test-governance.bool.network/address/${address}`;
 					updatedContent = updatedContent.replace(match, `[${label}](${link})`);
 				}
 			}

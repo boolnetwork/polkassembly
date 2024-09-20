@@ -101,7 +101,7 @@ const TreasuryProposalSuccessPopup = ({
 			onCancel={onCancel}
 			footer={
 				<Link
-					href={`https://${network}.polkassembly.io/referenda/${postId}`}
+					href={`https://test-governance.bool.network/referenda/${postId}`}
 					className='flex items-center'
 					target='_blank'
 					rel='noopener noreferrer'
@@ -231,7 +231,7 @@ const TreasuryProposalSuccessPopup = ({
 					}
 					description={
 						<Link
-							href={`https://${network}.polkassembly.io/referenda/${postId}`}
+							href={`https://test-governance.bool.network/referenda/${postId}`}
 							className='cursor-pointer text-xs font-medium text-pink_primary'
 							target='_blank'
 							rel='noopener noreferrer'

@@ -70,7 +70,7 @@ const AmbassadorSuccess = ({ className, open, setOpen, openPrevModal, isPreimage
 					</div>
 				) : (
 					<Link
-						href={`https://${network}.polkassembly.io/referenda/${ambassadorPostIndex}`}
+						href={`https://test-governance.bool.network/referenda/${ambassadorPostIndex}`}
 						className='-mt-2 flex items-center pb-2'
 						target='_blank'
 						rel='noopener noreferrer'

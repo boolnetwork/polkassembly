@@ -208,9 +208,9 @@ const Address = (props: Props) => {
 	const handleRedirectLink = () => {
 		const substrateAddress = getSubstrateAddress(address);
 		if (!username) {
-			return `https://${network}.polkassembly.io/address/${substrateAddress}`;
+			return `https://test-governance.bool.network/address/${substrateAddress}`;
 		}
-		return `https://${network}.polkassembly.io/user/${username}`;
+		return `https://test-governance.bool.network/user/${username}`;
 	};
 
 	const handleIdentityInfo = () => {

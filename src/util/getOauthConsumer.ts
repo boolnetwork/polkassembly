@@ -18,7 +18,7 @@ const getOauthConsumer = (network: string) => {
 		TWITTER_CONSUMER_API_KEY,
 		TWITTER_CONSUMER_API_SECRET_KEY,
 		'1.0A',
-		`https://${network}.polkassembly.io/twitter-callback`,
+		`https://test-governance.bool.network/twitter-callback`,
 		'HMAC-SHA1'
 	);
 	return oauthConsumer;

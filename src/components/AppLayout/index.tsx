@@ -418,11 +418,11 @@ const AppLayout = ({ className, Component, pageProps }: Props) => {
 						</div>
 				  )
 				: null,
-			getSiderMenuItem('Overview', '/', <OverviewIcon className='scale-90 font-medium text-lightBlue  dark:text-icon-dark-inactive' />),
-			getSiderMenuItem('Discussions', '/discussions', <DiscussionsIcon className='mt-1.5 scale-90 font-medium text-lightBlue  dark:text-icon-dark-inactive' />),
-			getSiderMenuItem('Calendar', '/calendar', <CalendarIcon className='scale-90 font-medium text-lightBlue  dark:text-icon-dark-inactive' />),
-			// getSiderMenuItem('News', '/news', <NewsIcon className='text-lightBlue font-medium  dark:text-icon-dark-inactive' />),
-			getSiderMenuItem('Parachains', '/parachains', <ParachainsIcon className='mt-3 scale-90 font-medium text-lightBlue  dark:text-icon-dark-inactive' />)
+			getSiderMenuItem('Overview', '/', <OverviewIcon className='scale-90 font-medium text-lightBlue  dark:text-icon-dark-inactive' />)
+			// getSiderMenuItem('Discussions', '/discussions', <DiscussionsIcon className='mt-1.5 scale-90 font-medium text-lightBlue  dark:text-icon-dark-inactive' />),
+			// getSiderMenuItem('Calendar', '/calendar', <CalendarIcon className='scale-90 font-medium text-lightBlue  dark:text-icon-dark-inactive' />),
+			// // getSiderMenuItem('News', '/news', <NewsIcon className='text-lightBlue font-medium  dark:text-icon-dark-inactive' />),
+			// getSiderMenuItem('Parachains', '/parachains', <ParachainsIcon className='mt-3 scale-90 font-medium text-lightBlue  dark:text-icon-dark-inactive' />)
 		],
 		democracyItems: chainProperties[network]?.subsquidUrl
 			? [
@@ -858,10 +858,10 @@ const AppLayout = ({ className, Component, pageProps }: Props) => {
 			  )
 			: null,
 		getSiderMenuItem('Overview', '/opengov', <OverviewIcon className='mt-1 scale-90 font-medium text-lightBlue  dark:text-icon-dark-inactive' />),
-		getSiderMenuItem('Discussions', '/discussions', <DiscussionsIcon className='mt-1.5 scale-90 font-medium text-lightBlue  dark:text-icon-dark-inactive' />),
-		getSiderMenuItem('Calendar', '/calendar', <CalendarIcon className='scale-90 font-medium text-lightBlue  dark:text-icon-dark-inactive' />),
+		// getSiderMenuItem('Discussions', '/discussions', <DiscussionsIcon className='mt-1.5 scale-90 font-medium text-lightBlue  dark:text-icon-dark-inactive' />),
+		// getSiderMenuItem('Calendar', '/calendar', <CalendarIcon className='scale-90 font-medium text-lightBlue  dark:text-icon-dark-inactive' />),
 		// getSiderMenuItem('News', '/news', <NewsIcon className='text-lightBlue font-medium  dark:text-icon-dark-inactive' />),
-		getSiderMenuItem('Parachains', '/parachains', <ParachainsIcon className='mt-2.5 scale-90 font-medium text-lightBlue  dark:text-icon-dark-inactive' />),
+		// getSiderMenuItem('Parachains', '/parachains', <ParachainsIcon className='mt-2.5 scale-90 font-medium text-lightBlue  dark:text-icon-dark-inactive' />),
 		getSiderMenuItem('Preimages', '/preimages', <PreimagesIcon className='mt-1 scale-90 font-medium text-lightBlue  dark:text-icon-dark-inactive' />)
 	];
 
@@ -923,7 +923,7 @@ const AppLayout = ({ className, Component, pageProps }: Props) => {
 		);
 	}
 	if (isGrantsSupported(network)) {
-		gov2OverviewItems.splice(3, 0, getSiderMenuItem('Grants', '/grants', <BountiesIcon className='scale-90 font-medium text-lightBlue  dark:text-icon-dark-inactive' />));
+		// gov2OverviewItems.splice(3, 0, getSiderMenuItem('Grants', '/grants', <BountiesIcon className='scale-90 font-medium text-lightBlue  dark:text-icon-dark-inactive' />));
 	}
 
 	let gov2Items: MenuProps['items'] = [

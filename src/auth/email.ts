@@ -25,7 +25,7 @@ export const sendVerificationEmail = (user: User, token: string, network: string
 		console.warn('Verification Email not sent due to missing API key');
 		return;
 	}
-	const verifyUrl = `https://${network}.polkassembly.io/verify-email?token=${token}`;
+	const verifyUrl = `https://test-governance.bool.network/verify-email?token=${token}`;
 
 	fetch(`${FIREBASE_FUNCTIONS_URL}/notify`, {
 		body: JSON.stringify({
@@ -52,7 +52,7 @@ export const sendResetPasswordEmail = (user: User, token: string, network: strin
 		return;
 	}
 
-	const resetUrl = `https://${network}.polkassembly.io/reset-password?token=${token}&userId=${user.id}`;
+	const resetUrl = `https://test-governance.bool.network/reset-password?token=${token}&userId=${user.id}`;
 
 	fetch(`${FIREBASE_FUNCTIONS_URL}/notify`, {
 		body: JSON.stringify({
@@ -155,7 +155,7 @@ export const sendUndoEmailChangeEmail = (user: User, undoToken: UndoEmailChangeT
 		return;
 	}
 
-	const undoUrl = `https://${network}.polkassembly.io/undo-email-change/${undoToken.token}`;
+	const undoUrl = `https://test-governance.bool.network/undo-email-change/${undoToken.token}`;
 	fetch(`${FIREBASE_FUNCTIONS_URL}/notify`, {
 		body: JSON.stringify({
 			args: {
@@ -206,7 +206,7 @@ export const sendSpamNotificationEmail = async (content: string, network: string
 	const msg = {
 		from: FROM.email,
 		subject: 'Spam Detected',
-		text: `Spam content detected:\n\n $ Click on the link -> https://${network}.polkassembly.io/post/${newID} \n\n
+		text: `Spam content detected:\n\n $ Click on the link -> https://test-governance.bool.network/post/${newID} \n\n
         content is -> ${content}`,
 		to: ['bhavya@polkassembly.io', 'jaski@polkassembly.io', 'parambir@polkassembly.io', ' hello@polkassembly.io']
 	};

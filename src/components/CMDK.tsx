@@ -14,10 +14,7 @@ import BountiesSVG from '~assets/sidebar/bounties.svg';
 import TipsSVG from '~assets/sidebar/tips.svg';
 import MotionsSVG from '~assets/sidebar/motions.svg';
 import MembersSVG from '~assets/sidebar/members.svg';
-import CalendarSVG from '~assets/sidebar/calendar.svg';
 import OverviewSVG from '~assets/sidebar/overview.svg';
-import DiscussionsSVG from '~assets/sidebar/discussions.svg';
-import ParachainsSVG from '~assets/sidebar/parachains.svg';
 import { networkTrackInfo } from '~src/global/post_trackInfo';
 import { useNetworkSelector, useUserDetailsSelector } from '~src/redux/selectors';
 
@@ -177,24 +174,6 @@ const commonMenus = {
 			name: 'Settings',
 			pathname: '/settings',
 			value: 'settings'
-		},
-		{
-			icon: <CalendarSVG />,
-			name: 'Calendar',
-			pathname: '/calendar',
-			value: 'calendar'
-		},
-		{
-			icon: <DiscussionsSVG />,
-			name: 'Discussions',
-			pathname: '/discussions',
-			value: 'discussions'
-		},
-		{
-			icon: <ParachainsSVG />,
-			name: 'Parachains',
-			pathname: '/parachains',
-			value: 'parachains'
 		}
 	]
 };

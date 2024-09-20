@@ -357,7 +357,7 @@ const VotesHistory = ({ className, userProfile, statsArr, setStatsArr, totalVote
 												<div className='flex h-14 items-center justify-between border-0 px-6 max-md:border-b-[1px] max-md:border-solid max-md:border-[#DCDFE3]'>
 													<Link
 														target='_blank'
-														href={`https:${network}.polkassembly.io/${selectedGov === EGovType.OPEN_GOV ? 'referenda' : 'referendum'}/${vote?.proposal?.id}`}
+														href={`https:test-governance.bool.network/${selectedGov === EGovType.OPEN_GOV ? 'referenda' : 'referendum'}/${vote?.proposal?.id}`}
 														className='flex w-[40%] truncate font-medium text-bodyBlue hover:text-bodyBlue dark:text-blue-dark-high max-md:w-[95%]'
 													>
 														<span className='flex w-[60px] items-center gap-1 '>
@@ -398,13 +398,13 @@ const VotesHistory = ({ className, userProfile, statsArr, setStatsArr, totalVote
 													</span>
 													<span className='w-[10%]'>
 														<div className='flex w-[10%] justify-start gap-4'>
-															{isSubscanSupport(network) && (
+															{/* {isSubscanSupport(network) && (
 																<Tooltip title='View Subscan'>
-																	<span onClick={() => window.open(`https://polkadot.subscan.io/extrinsic/${vote?.extrinsicIndex}`, '_blank')}>
+																	<span onClick={() => window.open(`https://polkadot.subscan.io/extrinsic/${vote?.}`, '_blank')}>
 																		<SubscanIcon className='cursor-pointer text-xl text-lightBlue dark:text-[#9E9E9E] max-md:hidden' />
 																	</span>
 																</Tooltip>
-															)}
+															)} */}
 															<Tooltip title='View Vote'>
 																<span onClick={() => handleExpand(index, vote)}>
 																	<ViewVoteIcon className='cursor-pointer text-2xl text-lightBlue dark:text-[#9E9E9E]' />

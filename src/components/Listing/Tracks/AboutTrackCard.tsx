@@ -351,7 +351,7 @@ const AboutTrackCard: FC<IAboutTrackCardProps> = (props) => {
 								isUsedIndelegationNudge={true}
 							/>
 							<Link
-								href={`https://${network}.polkassembly.io/delegation${path}`}
+								href={`https://test-governance.bool.network/delegation${path}`}
 								target='_blank'
 								className='ml-2 mt-1 text-xs text-pink_primary'
 							>

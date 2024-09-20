@@ -420,7 +420,7 @@ const EditableCommentContent: FC<IEditableCommentContentProps> = (props) => {
 	};
 
 	const copyLink = () => {
-		const url = `https://${network}.polkassembly.io${asPath.split('#')[0]}#${commentId}`;
+		const url = `https://test-governance.bool.network${asPath.split('#')[0]}#${commentId}`;
 
 		copyToClipboard(url);
 

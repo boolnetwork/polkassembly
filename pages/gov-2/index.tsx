@@ -140,7 +140,7 @@ const Gov2Home = ({ error, gov2LatestPosts, network, networkSocialsData }: Props
 				<Gov2LatestActivity gov2LatestPosts={gov2LatestPosts} />
 			</div>
 
-			<div className='mx-1 mt-8 flex flex-col items-center justify-between gap-4 xl:flex-row'>
+			{/* <div className='mx-1 mt-8 flex flex-col items-center justify-between gap-4 xl:flex-row'>
 				<div className='w-full xl:w-[60%]'>
 					<UpcomingEvents />
 				</div>
@@ -148,7 +148,7 @@ const Gov2Home = ({ error, gov2LatestPosts, network, networkSocialsData }: Props
 				<div className='w-full xl:w-[40%]'>
 					<News twitter={networkSocialsData?.data?.twitter || ''} />
 				</div>
-			</div>
+			</div> */}
 			{/* <ChatFloatingModal /> */}
 		</>
 	);

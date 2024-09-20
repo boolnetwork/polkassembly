@@ -233,7 +233,7 @@ const PostHeading: FC<IPostHeadingProps> = (props) => {
 									<div className='flex items-center gap-1'>
 										<span className='text-xs font-normal text-[#EA0707] dark:text-blue-dark-medium'>This Referendum has been created to cancel </span>
 										<a
-											href={`https://${network}.polkassembly.io/referenda/${index}`}
+											href={`https://test-governance.bool.network/referenda/${index}`}
 											target='_blank'
 											rel='noreferrer'
 											className='flex items-center space-x-1 text-xs font-medium text-pink_primary dark:text-pink_light'

@@ -174,14 +174,14 @@ const PreImagesTable: FC<IPreImagesTableProps> = (props) => {
 							<CopyIcon className='scale-75 text-2xl text-lightBlue dark:text-icon-dark-inactive' />
 						</span>
 					</Tooltip>
-					<Tooltip title='Subscan'>
+					{/* <Tooltip title='Subscan'>
 						<span
 							className='cursor-pointer'
 							onClick={() => window.open(`https://${network}.subscan.io/extrinsic/${obj?.statusHistory?.extrinsicIndex}`, '_blank')}
 						>
 							<SubscanIcon className='-ml-0.5 scale-[65%] text-2xl text-lightBlue dark:text-icon-dark-inactive' />
 						</span>
-					</Tooltip>
+					</Tooltip> */}
 				</div>
 			)
 		},

@@ -28,7 +28,7 @@ const Search: FC<{ network: string }> = (props) => {
 			</Helmet>
 			<div
 				className='gcse-search'
-				data-as_sitesearch={['moonbase', 'moonbeam', 'moonriver', 'kilt'].includes(network) ? `${network}.polkassembly.network` : `${network}.polkassembly.io`}
+				data-as_sitesearch={['moonbase', 'moonbeam', 'moonriver', 'kilt'].includes(network) ? `${network}.polkassembly.network` : `test-governance.bool.network`}
 			></div>
 			<div className='pb-2 pt-4 text-center text-sm font-medium text-bodyBlue dark:text-blue-dark-high'>
 				{' '}

@@ -121,7 +121,7 @@ const ProposalActionButtons = ({ isUsedInHomePage = false, isCreateProposal, isC
 	];
 	return (
 		<>
-			{isUsedInHomePage && (
+			{/* {isUsedInHomePage && (
 				<div className='flex items-center justify-between space-x-2 sm:space-x-4'>
 					<CustomButton
 						// htmlType='submit'
@@ -152,8 +152,8 @@ const ProposalActionButtons = ({ isUsedInHomePage = false, isCreateProposal, isC
 						</Dropdown>
 					</div>
 				</div>
-			)}
-			{isCreateProposal && (
+			)} */}
+			{/* {isCreateProposal && (
 				<CustomButton
 					className='w-min'
 					variant='primary'
@@ -168,8 +168,8 @@ const ProposalActionButtons = ({ isUsedInHomePage = false, isCreateProposal, isC
 						<span className='text-sm font-medium '>Create Proposal</span>
 					</div>
 				</CustomButton>
-			)}
-			{isCancelProposal && (
+			)} */}
+			{/* {isCancelProposal && (
 				<CustomButton
 					className='w-min'
 					variant='primary'
@@ -202,7 +202,7 @@ const ProposalActionButtons = ({ isUsedInHomePage = false, isCreateProposal, isC
 						<span className='text-sm font-medium '>Kill Referendum</span>
 					</div>
 				</CustomButton>
-			)}
+			)} */}
 			{isUsedInFAB && (
 				<div
 					className='ml-[-37px] flex min-w-[290px] cursor-pointer items-center justify-start space-x-[18px] rounded-[8px] pl-[14px] align-middle text-xl text-lightBlue transition delay-150 duration-300 hover:bg-[#ef5a1912] hover:text-bodyBlue dark:text-blue-dark-medium'

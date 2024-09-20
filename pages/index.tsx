@@ -278,11 +278,11 @@ const Home: FC<IHomeProps> = ({ latestPosts, network, networkSocialsData }) => {
 					)}
 				</div>
 
-				<div className='mx-1 mt-8 flex flex-col items-center justify-between gap-4 xl:flex-row'>
+				{/* <div className='mx-1 mt-8 flex flex-col items-center justify-between gap-4 xl:flex-row'>
 					<div className='w-full'>
 						<UpcomingEvents />
 					</div>
-				</div>
+				</div> */}
 			</main>
 			{onchainIdentitySupportedNetwork.includes(network) && (
 				<OnchainIdentity

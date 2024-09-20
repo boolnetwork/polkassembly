@@ -191,7 +191,7 @@ const NavHeader = ({ className, sidedrawer, setSidedrawer, displayName, isVerifi
 			key: 'Delegation',
 			label: (
 				<a
-					href={`https://${network}.polkassembly.io/delegation`}
+					href={`https://test-governance.bool.network/delegation`}
 					target='_blank'
 					rel='noreferrer'
 					className='custom-link after:hidden'
@@ -370,8 +370,8 @@ const NavHeader = ({ className, sidedrawer, setSidedrawer, displayName, isVerifi
 				</div>
 
 				<div className='flex items-center justify-between gap-x-2 md:gap-x-4'>
-					<SearchBar className='searchbar-container' />
-					<InAppNotification />
+					{/* <SearchBar className='searchbar-container' /> */}
+					{/* <InAppNotification /> */}
 					<Space className='hidden items-center justify-between gap-x-2 md:flex md:gap-x-4'>
 						<NetworkDropdown setSidedrawer={setSidedrawer} />
 
@@ -411,7 +411,7 @@ const NavHeader = ({ className, sidedrawer, setSidedrawer, displayName, isVerifi
 								)}
 							</AuthDropdown>
 						)}
-						<div
+						{/* <div
 							className='mr-2 lg:mr-0'
 							onClick={() => {
 								trackEvent('renavigation_button_clicked', 'clicked_renavigation_button', {
@@ -423,7 +423,7 @@ const NavHeader = ({ className, sidedrawer, setSidedrawer, displayName, isVerifi
 							<MenuDropdown>
 								<OptionMenu className='mt-[6px] text-2xl' />
 							</MenuDropdown>
-						</div>
+						</div> */}
 					</Space>
 					{open ? (
 						<button
